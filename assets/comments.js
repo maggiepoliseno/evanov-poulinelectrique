@@ -1,5 +1,7 @@
 // Comment box under each creative. Comments are saved by n8n
 // (n8n.poulinelectrique.com), which also emails Maggie and posts in Talk.
+// The same n8n workflow deletes final uploads (remove) and lists the ones
+// deleted lately (ready), so they disappear before the next sync.
 // Each card's comments are filed under its file name, e.g.
 // PEI_IO1-Generac_FR_300x250, so French and English pages share them.
 (() => {
@@ -101,7 +103,12 @@
     });
   }
 
-  window.evanovComments = { attach };
+  const remove = (path) => fetch(API + 'evanov-upload-delete', {
+    method: 'POST',
+    body: new URLSearchParams({ path, name: savedName(), lang: fr ? 'fr' : 'en' })
+  }).then(r => r.ok ? r.json() : Promise.reject()).then(d => !!d.ok).catch(() => false);
+  const api = { attach, remove, ready: null };
+  window.evanovComments = api;
   // Creatives already on the page: the comment thread is named after the
   // first download link's file name.
   document.querySelectorAll('main .card').forEach(card => {
@@ -110,9 +117,9 @@
     const file = decodeURIComponent(a.getAttribute('href').split('/').pop());
     attach(card, file.replace(/\.[^.]+$/, ''));
   });
-  fetch(API + 'evanov-comments', { cache: 'no-store' })
+  api.ready = fetch(API + 'evanov-comments', { cache: 'no-store' })
     .then(r => r.ok ? r.json() : Promise.reject())
-    .then(d => { state = 'ready'; load(d.comments || []); })
-    .catch(() => { state = 'off'; })
+    .then(d => { state = 'ready'; load(d.comments || []); return d.deleted || []; })
+    .catch(() => { state = 'off'; return []; })
     .finally(() => boxes.forEach(render));
 })();

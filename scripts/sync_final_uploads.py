@@ -120,8 +120,11 @@ def find_dav_root(base, token):
                 return root, login
         except urllib.error.HTTPError as e:
             code = e.code
-    sys.exit(f'cannot read the share (HTTP {code}); it must be a'
-             ' read-only link, not the upload-only one')
+    # An upload-only ("file drop") link cannot be read: wait quietly until
+    # it is switched to "Allow upload and editing".
+    print(f'::warning::cannot read the share (HTTP {code}): the link is'
+          ' still upload-only - nothing to sync')
+    return None, None
 
 
 def iso(http_date):
@@ -139,6 +142,8 @@ def main():
         return
     base, token = parse_share(url)
     dav_root, login = find_dav_root(base, token)
+    if not dav_root:
+        return
     remote = listing(dav_root, login)
     old = {}
     if os.path.exists(MANIFEST):
