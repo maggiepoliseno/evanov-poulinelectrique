@@ -1,3 +1,23 @@
 {
- "items": []
+ "updated": "2026-10-05T22:11:06Z",
+ "items": [
+  {
+   "name": "Facebook Ad - Maintenance and Service GENERAC August 26th.mp4",
+   "path": "Facebook Ad - Maintenance and Service GENERAC August 26th.mp4",
+   "size": 10719840,
+   "modified": "2026-10-05T17:49:52Z",
+   "type": "video/mp4",
+   "etag": "21dfe58891f94a32196663e9d8d0df64",
+   "url": "Final-Uploads/Files/Facebook%20Ad%20-%20Maintenance%20and%20Service%20GENERAC%20August%2026th.mp4"
+  },
+  {
+   "name": "PEI_IO1-Generac_EN_300x600 starts up in seconds.jpg",
+   "path": "PEI_IO1-Generac_EN_300x600 starts up in seconds.jpg",
+   "size": 68836,
+   "modified": "2026-10-02T20:47:35Z",
+   "type": "image/jpeg",
+   "etag": "ccc7e66ed4baf4dd344b1b9498ba29d5",
+   "url": "Final-Uploads/Files/PEI_IO1-Generac_EN_300x600%20starts%20up%20in%20seconds.jpg"
+  }
+ ]
 }
