@@ -91,6 +91,7 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--pei-border);f
 .finfo{font-size:12px;color:var(--pei-muted);margin-top:-6px}
 .dl.one{grid-template-columns:1fr}
 </style>
+<link rel="stylesheet" href="../assets/comments.css">
 <script>
 // ?lang=fr sends readers to the French page.
 if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace('../' + location.hash);
@@ -99,7 +100,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
 <body>
 <main class="wrap">
   <div class="top">
-    <img src="../assets/PEI_logo_horse.png" alt="Poulin Électrique Inc">
+    <img src="../assets/PEI_Logo-Horse.png" alt="Poulin Électrique Inc">
     <div>
       <p class="kicker">Evanov Communications · Display 2026</p>
       <h1>Creative displays</h1>
@@ -112,15 +113,15 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
   </div>
 
   <div class="actions">
-    <a class="btn primary" href="../Evanov_PEI_display_2026-10.zip" download>Download all <small>ZIP · 10.6 MB</small></a>
-    <a class="btn" href="../Evanov_creative_list_EN.csv" download>Creative list <small>CSV</small></a>
-    <a class="btn upload-btn" href="https://portail.poulinelectrique.com/s/8RdegJM2qc6byR6" target="_blank" rel="noopener">Upload files ↗ <small>Final drafts</small></a>
+    <a class="btn primary" href="../PEI_Evanov_Display_2026-10.zip" download>Download all <small>ZIP · 10.6 MB</small></a>
+    <a class="btn" href="../PEI_Evanov_EN_CreativeList.csv" download>Creative list <small>CSV</small></a>
+    <a class="btn upload-btn" href="https://portail.poulinelectrique.com/s/8RdegJM2qc6byR6" target="_blank" rel="noopener">Upload files ↗ <small>Upload centre</small></a>
   </div>
-  <p class="proofs"><span>Proofs</span> <a href="../Proof_IO1-Generac_static.jpg" target="_blank" rel="noopener">IO 1 · Static</a> <a href="../Proof_IO2-Poulin_static.jpg" target="_blank" rel="noopener">IO 2 · Static</a> <a href="../Proof_IO1-Generac_video_300x250_FR.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · FR</a> <a href="../Proof_IO1-Generac_video_300x250_EN.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · EN</a> <a href="../Proof_IO1-Generac_video_300x250_BI.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · FR+EN</a> <a href="../Proof_IO2-Poulin_video_970x250_FR.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · FR</a> <a href="../Proof_IO2-Poulin_video_970x250_EN.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · EN</a> <a href="../Proof_IO2-Poulin_video_970x250_BI.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · FR+EN</a></p>
+  <p class="proofs"><span>Proofs</span> <a href="../Proofs/PEI_IO1-Generac_Proof-Static.jpg" target="_blank" rel="noopener">IO 1 · Static</a> <a href="../Proofs/PEI_IO2-Poulin_Proof-Static.jpg" target="_blank" rel="noopener">IO 2 · Static</a> <a href="../Proofs/PEI_IO1-Generac_FR_300x250_Proof-Video.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · FR</a> <a href="../Proofs/PEI_IO1-Generac_EN_300x250_Proof-Video.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · EN</a> <a href="../Proofs/PEI_IO1-Generac_BI_300x250_Proof-Video.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · FR+EN</a> <a href="../Proofs/PEI_IO2-Poulin_FR_970x250_Proof-Video.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · FR</a> <a href="../Proofs/PEI_IO2-Poulin_EN_970x250_Proof-Video.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · EN</a> <a href="../Proofs/PEI_IO2-Poulin_BI_970x250_Proof-Video.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · FR+EN</a></p>
 
   <ul class="specs"><li><b>72 files</b> · 36 JPG + 36 MP4</li><li><b>6 sizes</b> · 300×250, 728×90, 160×600, 300×600, 970×250, 320×50</li><li><b>MP4</b> · H.264, no sound, 14.5 s, under 200 KB, plays once</li><li><b>Backup image</b> · the JPG of the same size</li><li><b>Click-through URL</b> · in the creative list and on each card</li></ul>
 
-  <nav class="jump" aria-label="Sections"><a href="#io1">IO 1 · Generac</a><a href="#io2">IO 2 · Poulin Électrique</a><a href="#final">Final uploads</a><a href="#facebook">Facebook ads</a></nav>
+  <nav class="jump" aria-label="Sections"><a href="#io1">IO 1 · Generac</a><a href="#io2">IO 2 · Poulin Électrique</a><a href="#final">Final uploads</a><a href="#facebook">Facebook ads</a><a href="final-drafts/#naming">Naming convention</a></nav>
 
   <section class="io" id="io1">
     <header class="io-head"><h2>IO 1 · Generac</h2><p>Tag A · Generac pages</p></header>
@@ -709,11 +710,11 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
     <div class="grid wide">
       <article class="card">
         <div class="frame wide">
-          <video src="../Facebook/Facebook_Ad_Generac_Maintenance_and_Service_2026-08-26.mp4" poster="../Facebook/Facebook_Ad_Generac_Maintenance_and_Service_2026-08-26.jpg" width="1920" height="1080" preload="none" playsinline controls></video>
+          <video src="../Facebook/PEI_FB-Generac-Service_EN_1920x1080_2026-08-26.mp4" poster="../Facebook/PEI_FB-Generac-Service_EN_1280x720_Poster_2026-08-26.jpg" width="1920" height="1080" preload="none" playsinline controls></video>
         </div>
         <div class="meta"><span class="size">Generac · Maintenance and service</span></div>
         <p class="finfo">1920×1080 (16:9) · 18.7 s · with sound and subtitles · August 26 version</p>
-        <div class="dl one"><a href="../Facebook/Facebook_Ad_Generac_Maintenance_and_Service_2026-08-26.mp4" download>MP4 <small>18.7 s · 10.7 MB</small></a></div>
+        <div class="dl one"><a href="../Facebook/PEI_FB-Generac-Service_EN_1920x1080_2026-08-26.mp4" download>MP4 <small>18.7 s · 10.7 MB</small></a></div>
       </article>
     </div>
   </section>
@@ -745,8 +746,9 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
   try { localStorage.setItem('evanov-lang', a.dataset.lang); } catch (e) {}
 }));
 </script>
+<script src="../assets/comments.js"></script>
 <script>
-// Final uploads: listed from final-uploads/manifest.json, which a GitHub job
+// Final uploads: listed from Final-Uploads/manifest.json, which a GitHub job
 // refreshes every 15 minutes from the Nextcloud upload folder.
 (() => {
   const box = document.getElementById('final-list'), base = '../';
@@ -763,7 +765,7 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
   };
   const day = d => d ? new Date(d).toLocaleDateString('en-CA', {year: 'numeric', month: 'long', day: 'numeric'}) : '';
   const say = t => { box.textContent = ''; box.append(el('p', 'note', t)); };
-  fetch(base + 'final-uploads/manifest.json', {cache: 'no-store'})
+  fetch(base + 'Final-Uploads/manifest.json', {cache: 'no-store'})
     .then(r => r.ok ? r.json() : Promise.reject())
     .then(m => {
       const items = m.items || [];
@@ -788,6 +790,7 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
         dl.append(a);
         card.append(frame, meta, info, dl);
         box.append(card);
+        if (window.evanovComments) window.evanovComments.attach(card, 'Final-Uploads/' + it.path);
       });
     })
     .catch(() => say(T.err));

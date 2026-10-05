@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Copy the files of a read-only Nextcloud share into final-uploads/.
+"""Copy the files of a read-only Nextcloud share into Final-Uploads/.
 
 The portal (index.html, en/index.html) lists what is in
-final-uploads/manifest.json under "Final uploads".
+Final-Uploads/manifest.json under "Final uploads".
 
 Usage: SHARE_URL=https://portail.poulinelectrique.com/s/<token> \
        python3 scripts/sync_final_uploads.py
-Without SHARE_URL, the link in final-uploads/source.txt is used. With neither,
+Without SHARE_URL, the link in Final-Uploads/source.txt is used. With neither,
 nothing changes.
 """
 import base64
@@ -23,8 +23,8 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, 'final-uploads')
-FILES = os.path.join(OUT, 'files')
+OUT = os.path.join(ROOT, 'Final-Uploads')
+FILES = os.path.join(OUT, 'Files')
 MANIFEST = os.path.join(OUT, 'manifest.json')
 # GitHub refuses files over 100 MB; bigger ones are linked to Nextcloud.
 MAX_BYTES = 90 * 1000 * 1000
@@ -162,7 +162,7 @@ def main():
             if os.path.exists(local):
                 os.remove(local)
         else:
-            item['url'] = 'final-uploads/files/' + urllib.parse.quote(rel)
+            item['url'] = 'Final-Uploads/Files/' + urllib.parse.quote(rel)
             prev = old.get(rel)
             fresh = (prev and prev.get('etag') == p['etag']
                      and not prev.get('external') and os.path.exists(local)

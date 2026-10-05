@@ -1,6 +1,6 @@
 # Every 15 minutes, copy the files of the Nextcloud "final uploads" folder to the
-# portal (final-uploads/), then rebuild the site. The read-only share link is
-# the repository variable FINAL_UPLOADS_SHARE or final-uploads/source.txt.
+# portal (Final-Uploads/), then rebuild the site. The read-only share link is
+# the repository variable FINAL_UPLOADS_SHARE or Final-Uploads/source.txt.
 name: Sync final uploads
 
 on:
@@ -29,7 +29,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git add -A final-uploads
+          git add -A Final-Uploads
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
