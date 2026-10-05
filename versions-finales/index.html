@@ -84,21 +84,6 @@ footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--pei-border);f
 .steps li+li{margin-top:6px}
 .steps a{color:var(--pei-cream);text-underline-offset:3px}
 .upload .note{margin:14px 0 0;font-size:13px;color:var(--pei-muted)}
-.naming{margin-top:28px;padding:26px 28px;background:var(--pei-panel);border:1px solid var(--pei-border);border-radius:12px}
-.naming h2{color:var(--pei-cream);font-weight:600;font-size:clamp(24px,3vw,32px)}
-.naming h3{color:var(--pei-cream);font-weight:500;font-size:18px;letter-spacing:.1em;margin:24px 0 8px}
-.naming code{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--pei-cream);overflow-wrap:anywhere}
-.naming .pattern{margin:14px 0;padding:12px 14px;background:var(--pei-black-2);border:1px solid var(--pei-border);border-left:4px solid var(--pei-red);border-radius:8px}
-.naming .pattern code{font-size:15px}
-.naming .rules{margin:0 0 16px 20px;max-width:72ch;font-size:14px}
-.naming .rules li+li{margin-top:4px}
-.naming table{width:100%;border-collapse:collapse;font-size:14px}
-.naming th,.naming td{text-align:left;vertical-align:top;padding:8px 10px;border-top:1px solid var(--pei-border)}
-.naming th{font:600 13px/1.3 Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--pei-cream)}
-.naming .fields td:first-child{white-space:nowrap;color:var(--pei-cream);font-weight:600;width:1%}
-.naming .examples td:first-child{width:62%}
-.naming .note{margin:16px 0 0}
-@media (max-width:640px){.naming{padding:20px 16px}.naming thead{display:none}.naming tr{display:block;border-top:1px solid var(--pei-border);padding:6px 0}.naming td{display:block;border-top:0;padding:2px 0;width:auto!important}}
 </style>
 <script>
 // Language: ?lang=fr|en first, then the choice saved by the toggle, otherwise French.
@@ -128,7 +113,6 @@ footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--pei-border);f
     <h2>Déposer des fichiers</h2>
     <ol class="steps">
       <li>Cliquez sur « Déposer des fichiers » : la page de dépôt Nextcloud s'ouvre dans un nouvel onglet.</li>
-      <li>Nommez vos fichiers selon la <a href="#nommage">convention de nommage</a>.</li>
       <li>Glissez vos fichiers dans la page ou cliquez pour les choisir. Aucun compte n'est requis.</li>
       <li>Une fois le dépôt terminé, <a href="mailto:maggie@poulinelectrique.com?subject=Evanov%20%E2%80%93%20Versions%20finales%20d%C3%A9pos%C3%A9es">avisez Maggie par courriel</a>.</li>
     </ol>
@@ -139,42 +123,6 @@ footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--pei-border);f
     <p class="note">Tout le monde peut voir, télécharger et supprimer les fichiers déposés, sur la page de dépôt ou dans la section <a href="../#final">Versions finales déposées</a> du portail.</p>
   </section>
 
-  <section class="naming" id="nommage">
-    <h2>Convention de nommage</h2>
-    <p>Chaque fichier du portail suit le même modèle. Nommez vos fichiers de la même façon avant de les déposer.</p>
-    <p class="pattern"><code>PEI_Campagne_Langue_Format_Type_Date_vN.ext</code></p>
-    <ul class="rules">
-      <li>Les champs sont séparés par « _ »; les mots d'un même champ sont reliés par « - ». Pas d'espaces ni d'accents.</li>
-      <li>Toujours le même ordre. Un champ qui ne s'applique pas est omis.</li>
-    </ul>
-    <table class="fields">
-      <thead><tr><th>Champ</th><th>Valeurs</th></tr></thead>
-      <tbody>
-        <tr><td>PEI</td><td>Toujours en premier (Poulin Électrique Inc).</td></tr>
-        <tr><td>Campagne</td><td><code>IO1-Generac</code>, <code>IO2-Poulin</code>, <code>FB-Generac-Service</code> (publicité Facebook), <code>Evanov</code> (tout le portail).</td></tr>
-        <tr><td>Langue</td><td><code>FR</code>, <code>EN</code> ou <code>BI</code> (bilingue).</td></tr>
-        <tr><td>Format</td><td>Largeur x hauteur en pixels : <code>300x250</code>, <code>1920x1080</code>.</td></tr>
-        <tr><td>Type</td><td>Omis pour un créatif. <code>FINAL</code> (version finale déposée), <code>Proof-Static</code>, <code>Proof-Video</code>, <code>Poster</code>, <code>CreativeList</code>, <code>Display</code> (ZIP), <code>Logo-Horse</code>.</td></tr>
-        <tr><td>Date</td><td><code>AAAA-MM-JJ</code> (ou <code>AAAA-MM</code>).</td></tr>
-        <tr><td>Version</td><td><code>v2</code>, <code>v3</code>… La première version n'a pas de numéro.</td></tr>
-      </tbody>
-    </table>
-    <h3>Exemples</h3>
-    <table class="examples">
-      <tbody>
-        <tr><td><code>PEI_IO1-Generac_FR_300x250_FINAL_2026-10-05.jpg</code></td><td>Version finale déposée</td></tr>
-        <tr><td><code>PEI_IO1-Generac_FR_300x250_FINAL_2026-10-05_v2.jpg</code></td><td>2<sup>e</sup> version du même jour</td></tr>
-        <tr><td><code>PEI_IO1-Generac_FR_300x250.jpg</code></td><td>Créatif display</td></tr>
-        <tr><td><code>PEI_IO1-Generac_FR_300x250_Proof-Video.jpg</code></td><td>Épreuve de la vidéo</td></tr>
-        <tr><td><code>PEI_IO1-Generac_Proof-Static.jpg</code></td><td>Épreuve des images fixes (toutes les langues)</td></tr>
-        <tr><td><code>PEI_FB-Generac-Service_EN_1920x1080_2026-08-26.mp4</code></td><td>Publicité Facebook</td></tr>
-        <tr><td><code>PEI_Evanov_FR_CreativeList.csv</code></td><td>Liste des créatifs</td></tr>
-        <tr><td><code>PEI_Evanov_Display_2026-10.zip</code></td><td>Tous les créatifs display</td></tr>
-        <tr><td><code>PEI_Logo-Horse.png</code></td><td>Logo</td></tr>
-      </tbody>
-    </table>
-    <p class="note">Dossiers : majuscule initiale, mots reliés par « - » : <code>Static</code>, <code>Video-MP4</code>, <code>Proofs</code>, <code>Facebook</code>, <code>Logos</code>, <code>Final-Uploads</code>.</p>
-  </section>
 
   <p class="contact-note" id="contact">Chaque commentaire laissé sur le portail est envoyé directement à Maggie. Pour toute autre chose, écrivez-lui&nbsp;: <a href="mailto:maggie@poulinelectrique.com?subject=Evanov%20%E2%80%93%20Cr%C3%A9atifs%20Poulin%20%C3%89lectrique">maggie@poulinelectrique.com</a></p>
 

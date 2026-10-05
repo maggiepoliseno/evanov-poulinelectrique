@@ -19,16 +19,6 @@ Page de téléchargement des créatifs display pour les deux IO d'Evanov Communi
 - `Final-Uploads/` : section « Versions finales déposées ». Toutes les 15 minutes, `.github/workflows/sync-final-uploads.yml` copie ici les fichiers du dossier Nextcloud du centre de dépôt (lien de partage « Autoriser l'envoi et la modification » : variable `FINAL_UPLOADS_SHARE` du dépôt ou `Final-Uploads/source.txt`)
 - Commentaires : une boîte de commentaires sous chaque créatif (`assets/comments.js`). Les commentaires sont enregistrés par n8n (workflow « Evanov – Portal comments and uploads »), qui envoie un courriel à Maggie et un message dans Talk. Le même workflow supprime une version finale déposée (bouton « Supprimer », pour tout le monde) dans le Nextcloud et avise Maggie.
 
-### Convention de nommage
-
-`PEI_Campagne_Langue_Format_Type_Date_vN.ext` — champs séparés par `_`, mots d'un champ reliés par `-`, pas d'espaces ni d'accents, toujours dans cet ordre; un champ qui ne s'applique pas est omis.
-
-- **Campagne** : `IO1-Generac`, `IO2-Poulin`, `FB-Generac-Service`, `Evanov` (tout le portail)
-- **Langue** : `FR`, `EN`, `BI` · **Format** : `300x250`, `1920x1080`
-- **Type** (omis pour un créatif) : `FINAL`, `Proof-Static`, `Proof-Video`, `Poster`, `CreativeList`, `Display`, `Logo-Horse`
-- **Date** : `AAAA-MM-JJ` · **Version** : `v2`, `v3`…
-- Exemples : `PEI_IO1-Generac_FR_300x250.jpg`, `PEI_IO1-Generac_FR_300x250_FINAL_2026-10-05_v2.jpg`, `PEI_Evanov_Display_2026-10.zip`
-- Dossiers : `Static`, `Video-MP4`, `Proofs`, `Facebook`, `Logos`, `Final-Uploads`
 
 La page est publiée par GitHub Pages sur evanov.poulinelectrique.com (fichier `CNAME`). Elle n'est pas indexée par les moteurs de recherche.
 
@@ -49,15 +39,5 @@ Download page for the display creatives for Evanov Communications' two IOs, in F
 - `Final-Uploads/`: the "Final uploads" section. Every 15 minutes, `.github/workflows/sync-final-uploads.yml` copies the files of the upload centre's Nextcloud folder here (share link set to "Allow upload and editing": repository variable `FINAL_UPLOADS_SHARE` or `Final-Uploads/source.txt`)
 - Comments: a comment box under each creative (`assets/comments.js`). Comments are saved by n8n (workflow "Evanov – Portal comments and uploads"), which emails Maggie and posts in Talk. The same workflow deletes a final upload ("Delete" button, for everyone) from Nextcloud and notifies Maggie.
 
-### Naming convention
-
-`PEI_Campaign_Language_Size_Type_Date_vN.ext` — fields separated by `_`, words inside a field joined with `-`, no spaces or accents, always in this order; a field that does not apply is left out.
-
-- **Campaign**: `IO1-Generac`, `IO2-Poulin`, `FB-Generac-Service`, `Evanov` (whole portal)
-- **Language**: `FR`, `EN`, `BI` · **Size**: `300x250`, `1920x1080`
-- **Type** (left out for a creative): `FINAL`, `Proof-Static`, `Proof-Video`, `Poster`, `CreativeList`, `Display`, `Logo-Horse`
-- **Date**: `YYYY-MM-DD` · **Version**: `v2`, `v3`…
-- Examples: `PEI_IO1-Generac_FR_300x250.jpg`, `PEI_IO1-Generac_FR_300x250_FINAL_2026-10-05_v2.jpg`, `PEI_Evanov_Display_2026-10.zip`
-- Folders: `Static`, `Video-MP4`, `Proofs`, `Facebook`, `Logos`, `Final-Uploads`
 
 The page is published by GitHub Pages at evanov.poulinelectrique.com (`CNAME` file). It is hidden from search engines.
