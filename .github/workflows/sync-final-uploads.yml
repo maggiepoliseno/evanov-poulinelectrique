@@ -1,0 +1,40 @@
+# Every hour, copy the files of the Nextcloud "final uploads" folder to the
+# portal (final-uploads/), then rebuild the site. The read-only share link is
+# the repository variable FINAL_UPLOADS_SHARE or final-uploads/source.txt.
+name: Sync final uploads
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: final-uploads
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy new files from Nextcloud
+        env:
+          SHARE_URL: ${{ vars.FINAL_UPLOADS_SHARE }}
+        run: python3 scripts/sync_final_uploads.py
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -A final-uploads
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync final uploads from Nextcloud"
+          git push
+          curl -sS -X POST -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
