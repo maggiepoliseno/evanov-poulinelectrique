@@ -12,6 +12,7 @@ Page de téléchargement des créatifs display pour les deux IO d'Evanov Communi
 - MP4 : H.264, sans son, 14,5 s, moins de 200 Ko, joue une fois. Image de secours : le JPG du même format.
 - `Static/` et `Video-MP4/` : les créatifs, classés par IO
 - `PEI_Evanov_FR_CreativeList.csv` (séparateur « ; ») et `PEI_Evanov_EN_CreativeList.csv` : liste des créatifs avec les URL de clic
+- `PEI_Evanov_Display_Targeting_Brief_2026-10-05.docx` : brief de ciblage v5 (mots-clés, territoire, public, exigences de livraison, et banque de mots EN/FR pour l'équipe de création)
 - `Proofs/` : épreuves des images fixes et des vidéos
 - `PEI_Evanov_Display_2026-10.zip` : tous les créatifs display, les listes et les épreuves en un fichier
 - `Logos/` : les logos utilisés sur le site
@@ -32,6 +33,7 @@ Download page for the display creatives for Evanov Communications' two IOs, in F
 - MP4: H.264, no sound, 14.5 s, under 200 KB, plays once. Backup image: the JPG of the same size.
 - `Static/` and `Video-MP4/`: the creatives, by IO
 - `PEI_Evanov_EN_CreativeList.csv` and `PEI_Evanov_FR_CreativeList.csv` (";" separator): creative list with click-through URLs
+- `PEI_Evanov_Display_Targeting_Brief_2026-10-05.docx`: targeting brief v5 (keywords, territory, audience, delivery requirements, and an EN/FR word bank for the creative team)
 - `Proofs/`: proofs of the static and video creatives
 - `PEI_Evanov_Display_2026-10.zip`: all display creatives, lists and proofs in one file
 - `Logos/`: the logos used on the site
