@@ -1,0 +1,6 @@
+# Files in the Nextcloud upload folder that the portal does NOT list under
+# "Final uploads", because another section already shows them.
+# One path per line, exactly as in the folder. Lines starting with # are notes.
+
+# Shown in the "Facebook ads" section (copy without subtitles):
+Facebook Ad - Maintenance and Service GENERAC August 26th.mp4

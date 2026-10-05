@@ -7,7 +7,8 @@ Final-Uploads/manifest.json under "Final uploads".
 Usage: SHARE_URL=https://portail.poulinelectrique.com/s/<token> \
        python3 scripts/sync_final_uploads.py
 Without SHARE_URL, the link in Final-Uploads/source.txt is used. With neither,
-nothing changes.
+nothing changes. Files named in Final-Uploads/hide.txt are left out because
+the portal already shows them in another section.
 """
 import base64
 import json
@@ -46,6 +47,16 @@ def share_url():
                 url = line
                 break
     return url
+
+
+def hidden():
+    """Paths in the share not to list (one per line; # starts a comment)."""
+    src = os.path.join(OUT, 'hide.txt')
+    if not os.path.exists(src):
+        return set()
+    with open(src, encoding='utf-8') as fh:
+        return {line.strip().strip('/') for line in fh
+                if line.strip() and not line.lstrip().startswith('#')}
 
 
 def parse_share(url):
@@ -145,6 +156,10 @@ def main():
     if not dav_root:
         return
     remote = listing(dav_root, login)
+    skip = hidden()
+    for rel in [r for r in remote if r in skip]:
+        print('hidden (shown elsewhere on the portal):', rel)
+        del remote[rel]
     old = {}
     if os.path.exists(MANIFEST):
         for it in json.load(open(MANIFEST, encoding='utf-8')).get('items', []):

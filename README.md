@@ -17,7 +17,7 @@ Page de téléchargement des créatifs display pour les deux IO d'Evanov Communi
 - `PEI_Evanov_Display_2026-10.zip` : tous les créatifs display, les listes et les épreuves en un fichier
 - `Logos/` : les logos utilisés sur le site
 - `Facebook/` : publicité vidéo Facebook (Generac · entretien et service, 1920×1080, 18,7 s, avec son)
-- `Final-Uploads/` : section « Versions finales déposées ». Toutes les 15 minutes, `.github/workflows/sync-final-uploads.yml` copie ici les fichiers du dossier Nextcloud du centre de dépôt (lien de partage « Autoriser l'envoi et la modification » : variable `FINAL_UPLOADS_SHARE` du dépôt ou `Final-Uploads/source.txt`)
+- `Final-Uploads/` : section « Versions finales déposées ». Toutes les 15 minutes, `.github/workflows/sync-final-uploads.yml` copie ici les fichiers du dossier Nextcloud du centre de dépôt (lien de partage « Autoriser l'envoi et la modification » : variable `FINAL_UPLOADS_SHARE` du dépôt ou `Final-Uploads/source.txt`). Les fichiers nommés dans `Final-Uploads/hide.txt` n'y sont pas listés parce qu'une autre section les montre déjà (ex. la vidéo Facebook).
 - Commentaires : une boîte de commentaires sous chaque créatif (`assets/comments.js`). Les commentaires sont enregistrés par n8n (workflow « Evanov – Portal comments and uploads »), qui envoie un courriel à Maggie et un message dans Talk. Le même workflow supprime une version finale déposée (bouton « Supprimer », pour tout le monde) dans le Nextcloud et avise Maggie.
 
 
@@ -38,7 +38,7 @@ Download page for the display creatives for Evanov Communications' two IOs, in F
 - `PEI_Evanov_Display_2026-10.zip`: all display creatives, lists and proofs in one file
 - `Logos/`: the logos used on the site
 - `Facebook/`: Facebook video ad (Generac · maintenance and service, 1920×1080, 18.7 s, with sound)
-- `Final-Uploads/`: the "Final uploads" section. Every 15 minutes, `.github/workflows/sync-final-uploads.yml` copies the files of the upload centre's Nextcloud folder here (share link set to "Allow upload and editing": repository variable `FINAL_UPLOADS_SHARE` or `Final-Uploads/source.txt`)
+- `Final-Uploads/`: the "Final uploads" section. Every 15 minutes, `.github/workflows/sync-final-uploads.yml` copies the files of the upload centre's Nextcloud folder here (share link set to "Allow upload and editing": repository variable `FINAL_UPLOADS_SHARE` or `Final-Uploads/source.txt`). Files named in `Final-Uploads/hide.txt` are left out because another section already shows them (e.g. the Facebook video).
 - Comments: a comment box under each creative (`assets/comments.js`). Comments are saved by n8n (workflow "Evanov – Portal comments and uploads"), which emails Maggie and posts in Talk. The same workflow deletes a final upload ("Delete" button, for everyone) from Nextcloud and notifies Maggie.
 
 
