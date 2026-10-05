@@ -704,7 +704,7 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--pei-border);f
   </section>
 
   <section class="io" id="final">
-    <header class="io-head"><h2>Versions finales déposées</h2><p><span class="en">Final uploads</span> · Les fichiers déposés dans le <a href="versions-finales/">centre de dépôt</a> s'affichent ici automatiquement (mise à jour toutes les heures).</p></header>
+    <header class="io-head"><h2>Versions finales déposées</h2><p><span class="en">Final uploads</span> · Les fichiers déposés dans le <a href="versions-finales/">centre de dépôt</a> s'affichent ici automatiquement (mise à jour toutes les 15 minutes).</p></header>
     <div class="grid" id="final-list" aria-live="polite"><p class="note">Chargement…</p></div>
   </section>
 
@@ -751,7 +751,7 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
 </script>
 <script>
 // Final uploads: listed from final-uploads/manifest.json, which a GitHub job
-// refreshes every hour from the Nextcloud upload folder.
+// refreshes every 15 minutes from the Nextcloud upload folder.
 (() => {
   const box = document.getElementById('final-list'), base = '';
   const T = {none: 'Aucun fichier déposé pour l\u2019instant.', err: 'La liste n\u2019est pas disponible pour le moment.', dl: 'Télécharger', open: 'Ouvrir ↗'};

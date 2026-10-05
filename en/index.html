@@ -700,7 +700,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
   </section>
 
   <section class="io" id="final">
-    <header class="io-head"><h2>Final uploads</h2><p>Files dropped in the <a href="final-drafts/">upload centre</a> show up here automatically (updated every hour).</p></header>
+    <header class="io-head"><h2>Final uploads</h2><p>Files dropped in the <a href="final-drafts/">upload centre</a> show up here automatically (updated every 15 minutes).</p></header>
     <div class="grid" id="final-list" aria-live="polite"><p class="note">Loading…</p></div>
   </section>
 
@@ -747,7 +747,7 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
 </script>
 <script>
 // Final uploads: listed from final-uploads/manifest.json, which a GitHub job
-// refreshes every hour from the Nextcloud upload folder.
+// refreshes every 15 minutes from the Nextcloud upload folder.
 (() => {
   const box = document.getElementById('final-list'), base = '../';
   const T = {none: 'No files uploaded yet.', err: 'The list is not available right now.', dl: 'Download', open: 'Open ↗'};

@@ -1,11 +1,11 @@
-# Every hour, copy the files of the Nextcloud "final uploads" folder to the
+# Every 15 minutes, copy the files of the Nextcloud "final uploads" folder to the
 # portal (final-uploads/), then rebuild the site. The read-only share link is
 # the repository variable FINAL_UPLOADS_SHARE or final-uploads/source.txt.
 name: Sync final uploads
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
 permissions:

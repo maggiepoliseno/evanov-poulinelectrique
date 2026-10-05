@@ -16,7 +16,7 @@ Page de téléchargement des créatifs display pour les deux IO d'Evanov Communi
 - `Evanov_PEI_display_2026-10.zip` : tout le contenu en un fichier
 - `Logos/` : les logos utilisés sur le site
 - `Facebook/` : publicité vidéo Facebook (Generac · entretien et service, 1920×1080, 18,7 s, avec son)
-- `final-uploads/` : section « Versions finales déposées ». Toutes les heures, `.github/workflows/sync-final-uploads.yml` copie ici les fichiers du dossier Nextcloud du centre de dépôt (lien de partage en lecture seule : variable `FINAL_UPLOADS_SHARE` du dépôt ou `final-uploads/source.txt`)
+- `final-uploads/` : section « Versions finales déposées ». Toutes les 15 minutes, `.github/workflows/sync-final-uploads.yml` copie ici les fichiers du dossier Nextcloud du centre de dépôt (lien de partage en lecture seule : variable `FINAL_UPLOADS_SHARE` du dépôt ou `final-uploads/source.txt`)
 
 La page est publiée par GitHub Pages sur evanov.poulinelectrique.com (fichier `CNAME`). Elle n'est pas indexée par les moteurs de recherche.
 
@@ -34,6 +34,6 @@ Download page for the display creatives for Evanov Communications' two IOs, in F
 - `Evanov_PEI_display_2026-10.zip`: everything in one file
 - `Logos/`: the logos used on the site
 - `Facebook/`: Facebook video ad (Generac · maintenance and service, 1920×1080, 18.7 s, with sound)
-- `final-uploads/`: the "Final uploads" section. Every hour, `.github/workflows/sync-final-uploads.yml` copies the files of the upload centre's Nextcloud folder here (read-only share link: repository variable `FINAL_UPLOADS_SHARE` or `final-uploads/source.txt`)
+- `final-uploads/`: the "Final uploads" section. Every 15 minutes, `.github/workflows/sync-final-uploads.yml` copies the files of the upload centre's Nextcloud folder here (read-only share link: repository variable `FINAL_UPLOADS_SHARE` or `final-uploads/source.txt`)
 
 The page is published by GitHub Pages at evanov.poulinelectrique.com (`CNAME` file). It is hidden from search engines.
