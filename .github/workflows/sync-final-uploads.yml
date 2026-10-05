@@ -20,7 +20,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Copy new files from Nextcloud
         env:
           SHARE_URL: ${{ vars.FINAL_UPLOADS_SHARE }}

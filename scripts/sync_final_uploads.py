@@ -120,10 +120,10 @@ def find_dav_root(base, token):
                 return root, login
         except urllib.error.HTTPError as e:
             code = e.code
-    # An upload-only ("file drop") link cannot be read: wait quietly until
-    # it is switched to "Allow upload and editing".
+    # An upload-only ("file drop") or password-protected link cannot be
+    # read: wait quietly until it is "Allow upload and editing", no password.
     print(f'::warning::cannot read the share (HTTP {code}): the link is'
-          ' still upload-only - nothing to sync')
+          ' upload-only or has a password - nothing to sync')
     return None, None
 
 
