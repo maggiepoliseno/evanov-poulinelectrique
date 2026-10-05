@@ -85,7 +85,7 @@ footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--pei-border);f
 .grid.wide{grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr))}
 .grid>.note{grid-column:1/-1;margin:0}
 .frame.wide{height:auto;aspect-ratio:16/9}
-.frame.wide video{width:100%;height:100%;object-fit:contain}
+.frame.wide video,.frame.wide img{width:100%;height:100%;object-fit:contain}
 .frame .ext{font:600 30px/1 Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--pei-muted)}
 .fname{color:var(--pei-cream);font-weight:600;font-size:15px;overflow-wrap:anywhere}
 .finfo{font-size:12px;color:var(--pei-muted);margin-top:-6px}
@@ -756,7 +756,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
   </section>
 
   <section class="io" id="facebook">
-    <header class="io-head"><h2>Facebook ads</h2><p>Video ad for Facebook · with sound</p></header>
+    <header class="io-head"><h2>Facebook ads</h2><p>Video ad and cover image for Facebook</p></header>
     <div class="grid wide">
       <article class="card">
         <div class="frame wide">
@@ -766,6 +766,13 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
         <div class="meta"><span class="size">Generac · Maintenance and service</span></div>
         <p class="finfo">1920×1080 (16:9) · 18.7 s · with sound · August 26 version</p>
         <div class="dl one"><a href="../Facebook/PEI_FB-Generac-Service_EN_1920x1080_2026-08-26.mp4" download>MP4 <small>18.7 s · 10.7 MB</small></a></div>
+      </article>
+      <article class="card">
+        <div class="frame wide"><img src="../Facebook/PEI_FB-Generac-Cover_EN_2048x1143_2026-10-05.jpg" alt="Facebook cover: Poulin Électrique Inc, authorized Generac dealer" width="2048" height="1143" loading="lazy"></div>
+        <p class="fname">PEI_FB-Generac-Cover_EN_2048x1143_2026-10-05</p>
+        <div class="meta"><span class="size">Generac · Cover image</span></div>
+        <p class="finfo">2048×1143 · JPG · October 5 version</p>
+        <div class="dl one"><a href="../Facebook/PEI_FB-Generac-Cover_EN_2048x1143_2026-10-05.jpg" download>JPG <small>222 KB</small></a></div>
       </article>
     </div>
   </section>
