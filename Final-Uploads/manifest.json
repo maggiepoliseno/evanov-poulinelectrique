@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T22:45:43Z",
+ "updated": "2026-10-05T22:48:31Z",
  "items": [
   {
    "name": "Cover Page -FB.jpg",
@@ -9,15 +9,6 @@
    "type": "image/jpeg",
    "etag": "ed910cad83662278b456dc01ea28cfcb",
    "url": "Final-Uploads/Files/Cover%20Page%20-FB.jpg"
-  },
-  {
-   "name": "Facebook Ad - Maintenance and Service GENERAC August 26th.mp4",
-   "path": "Facebook Ad - Maintenance and Service GENERAC August 26th.mp4",
-   "size": 10719840,
-   "modified": "2026-10-05T17:49:52Z",
-   "type": "video/mp4",
-   "etag": "21dfe58891f94a32196663e9d8d0df64",
-   "url": "Final-Uploads/Files/Facebook%20Ad%20-%20Maintenance%20and%20Service%20GENERAC%20August%2026th.mp4"
   }
  ]
 }
