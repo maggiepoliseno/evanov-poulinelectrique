@@ -39,8 +39,6 @@ h1{font-weight:600;color:var(--pei-cream);font-size:clamp(34px,5vw,60px);line-he
 .btn small{font-family:Inter,sans-serif;text-transform:none;letter-spacing:0;font-weight:500;opacity:.85}
 .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px 28px;margin:8px 0 8px;padding:18px 0;border-top:1px solid var(--pei-border);border-bottom:1px solid var(--pei-border);list-style:none;font-size:14px}
 .specs b{color:var(--pei-cream);font-weight:600}
-nav.jump{display:flex;flex-wrap:wrap;gap:8px 18px;margin:22px 0 0;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:14px}
-nav.jump a{text-decoration:none;color:var(--pei-cream)} nav.jump a:hover{color:var(--pei-red)}
 .io{margin-top:56px}
 .io-head h2{color:var(--pei-cream);font-weight:600;font-size:clamp(26px,3vw,38px)}
 #io1 .io-head h2::after{content:"";display:block;width:56px;height:3px;background:var(--gen-logo);margin-top:8px}
@@ -92,6 +90,18 @@ footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--pei-border);f
 .fname{color:var(--pei-cream);font-weight:600;font-size:15px;overflow-wrap:anywhere}
 .finfo{font-size:12px;color:var(--pei-muted);margin-top:-6px}
 .dl.one{grid-template-columns:1fr}
+.quick{position:sticky;top:0;z-index:30;display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 -24px 6px;padding:10px 24px;background:rgba(5,5,5,.94);border-bottom:1px solid var(--pei-border);backdrop-filter:blur(6px)}
+.quick .dd{position:relative}
+.quick summary,.quick .qlink{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid var(--pei-border);border-radius:9px;background:#191919;color:var(--pei-cream);font:600 14px/1 Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;cursor:pointer;list-style:none;transition:background .15s,border-color .15s}
+.quick summary::-webkit-details-marker{display:none}
+.quick summary::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .15s}
+.quick .dd[open] summary::after{transform:translateY(2px) rotate(-135deg)}
+.quick summary:hover,.quick .qlink:hover,.quick .dd[open] summary{border-color:var(--pei-red);background:var(--pei-panel-2)}
+.quick .menu{position:absolute;top:calc(100% + 6px);left:0;min-width:190px;max-width:calc(100vw - 32px);display:flex;flex-direction:column;padding:6px;background:#191919;border:1px solid var(--pei-border);border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.55)}
+.quick .menu a{padding:10px 12px;border-radius:7px;color:var(--pei-cream);text-decoration:none;font-size:15px}
+.quick .menu a:hover,.quick .menu a:focus-visible{background:var(--pei-red);color:#fff;outline:none}
+.io[id],.lang[id]{scroll-margin-top:calc(var(--qh,64px) + 16px)}
+@media (max-width:640px){.quick{margin:0 -16px 6px;padding:8px 16px}.quick summary,.quick .qlink{padding:9px 11px;font-size:13px}}
 </style>
 <link rel="stylesheet" href="../assets/comments.css">
 <script>
@@ -114,6 +124,8 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
     </nav>
   </div>
 
+  <nav class="quick" aria-label="Quick access"><details class="dd"><summary>Generac</summary><div class="menu"><a href="#io1-en">English</a><a href="#io1-fr">French</a><a href="#io1-bi">Bilingual</a></div></details><details class="dd"><summary>Poulin Électrique Inc</summary><div class="menu"><a href="#io2-en">English</a><a href="#io2-fr">French</a><a href="#io2-bi">Bilingual</a></div></details><a class="qlink" href="#final">Final uploads</a><a class="qlink" href="#facebook">Facebook ads</a></nav>
+
   <div class="actions">
     <a class="btn primary" href="../PEI_Evanov_Display_2026-10.zip" download>Download all <small>ZIP · 10.6 MB</small></a>
     <a class="btn" href="../PEI_Evanov_EN_CreativeList.csv" download>Creative list <small>CSV</small></a>
@@ -123,11 +135,10 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
 
   <ul class="specs"><li><b>72 files</b> · 36 JPG + 36 MP4</li><li><b>6 sizes</b> · 300×250, 728×90, 160×600, 300×600, 970×250, 320×50</li><li><b>MP4</b> · H.264, no sound, 14.5 s, under 200 KB, plays once</li><li><b>Backup image</b> · the JPG of the same size</li><li><b>Click-through URL</b> · in the creative list and on each card</li></ul>
 
-  <nav class="jump" aria-label="Sections"><a href="#io1">IO 1 · Generac</a><a href="#io2">IO 2 · Poulin Électrique</a><a href="#final">Final uploads</a><a href="#facebook">Facebook ads</a></nav>
 
   <section class="io" id="io1">
     <header class="io-head"><h2>IO 1 · Generac</h2><p>Tag A · Generac pages</p></header>
-    <section class="lang">
+    <section class="lang" id="io1-fr">
       <h3>French creatives</h3>
       <div class="grid">
       <article class="card">
@@ -228,7 +239,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
       </article>
       </div>
     </section>
-    <section class="lang">
+    <section class="lang" id="io1-en">
       <h3>English creatives</h3>
       <div class="grid">
       <article class="card">
@@ -329,7 +340,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
       </article>
       </div>
     </section>
-    <section class="lang">
+    <section class="lang" id="io1-bi">
       <h3>Bilingual creatives</h3><p class="note">French predominant with a smaller English translation (Charter of the French Language, s. 58).</p>
       <div class="grid">
       <article class="card">
@@ -433,7 +444,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
   </section>
   <section class="io" id="io2">
     <header class="io-head"><h2>IO 2 · Poulin Électrique</h2><p>Tag B · brand</p></header>
-    <section class="lang">
+    <section class="lang" id="io2-fr">
       <h3>French creatives</h3>
       <div class="grid">
       <article class="card">
@@ -534,7 +545,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
       </article>
       </div>
     </section>
-    <section class="lang">
+    <section class="lang" id="io2-en">
       <h3>English creatives</h3>
       <div class="grid">
       <article class="card">
@@ -635,7 +646,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
       </article>
       </div>
     </section>
-    <section class="lang">
+    <section class="lang" id="io2-bi">
       <h3>Bilingual creatives</h3><p class="note">French predominant with a smaller English translation (Charter of the French Language, s. 58).</p>
       <div class="grid">
       <article class="card">
@@ -850,6 +861,29 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
       });
     })
     .catch(() => say(T.err));
+})();
+</script>
+<script>
+// Quick access menus: one open at a time, close after a choice or a click elsewhere.
+(() => {
+  const menus = [...document.querySelectorAll('.quick .dd')];
+  // Sections stop just below the sticky menu bar, whatever its height.
+  const bar = document.querySelector('.quick');
+  const fit = () => document.documentElement.style.setProperty('--qh', bar.offsetHeight + 'px');
+  fit();
+  addEventListener('resize', fit);
+  menus.forEach(d => d.addEventListener('toggle', () => {
+    if (d.open) menus.forEach(o => { if (o !== d) o.open = false; });
+  }));
+  document.querySelectorAll('.quick .menu a').forEach(a => a.addEventListener('click', () => {
+    menus.forEach(d => { d.open = false; });
+  }));
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.quick .dd')) menus.forEach(d => { d.open = false; });
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') menus.forEach(d => { d.open = false; });
+  });
 })();
 </script>
 </body>
