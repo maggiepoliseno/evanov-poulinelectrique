@@ -1,4 +1,41 @@
 {
- "updated": "2026-10-05T22:53:07Z",
- "items": []
+ "updated": "2026-10-11T22:01:10Z",
+ "items": [
+  {
+   "name": "LinkedIn cover — EN@1x.png",
+   "path": "LinkedIn cover — EN@1x.png",
+   "size": 370207,
+   "modified": "2026-10-11T18:42:14Z",
+   "type": "image/png",
+   "etag": "8365c0298282cace520e0cead0ab37e1",
+   "url": "Final-Uploads/Files/LinkedIn%20cover%20%E2%80%94%20EN%401x.png"
+  },
+  {
+   "name": "LinkedIn cover — FR@1x.png",
+   "path": "LinkedIn cover — FR@1x.png",
+   "size": 371396,
+   "modified": "2026-10-11T18:37:36Z",
+   "type": "image/png",
+   "etag": "0bd9b22960565bcf47425ba3093d81df",
+   "url": "Final-Uploads/Files/LinkedIn%20cover%20%E2%80%94%20FR%401x.png"
+  },
+  {
+   "name": "pei-certifications.mp4",
+   "path": "pei-certifications.mp4",
+   "size": 0,
+   "modified": "2026-10-11T18:34:27Z",
+   "type": "video/mp4",
+   "etag": "af323abaedf776d6e14d1ef1266ab69d",
+   "url": "Final-Uploads/Files/pei-certifications.mp4"
+  },
+  {
+   "name": "Poulin_logo_transition_no_period.mp4",
+   "path": "Poulin_logo_transition_no_period.mp4",
+   "size": 21984271,
+   "modified": "2026-10-11T18:33:22Z",
+   "type": "video/mp4",
+   "etag": "514a36397051bdcd9b828cfc12f7f6ea",
+   "url": "Final-Uploads/Files/Poulin_logo_transition_no_period.mp4"
+  }
+ ]
 }
