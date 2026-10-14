@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-14T19:24:41Z",
+ "updated": "2026-10-14T23:49:15Z",
  "items": [
+  {
+   "name": "Jacob Generac.jpg",
+   "path": "Jacob Generac.jpg",
+   "size": 259887,
+   "modified": "2026-10-14T22:24:15Z",
+   "type": "image/jpeg",
+   "etag": "f4df8ed596a8f93f029684b320131244",
+   "url": "Final-Uploads/Files/Jacob%20Generac.jpg"
+  },
+  {
+   "name": "Generac Logo GOOD.png",
+   "path": "Generac Logo GOOD.png",
+   "size": 191533,
+   "modified": "2026-10-14T20:22:25Z",
+   "type": "image/png",
+   "etag": "9c7c05cbfe094c00828f82ddb0cd9896",
+   "url": "Final-Uploads/Files/Generac%20Logo%20GOOD.png"
+  },
+  {
+   "name": "PEI LOGO W GENERAC GOOD.jpg",
+   "path": "PEI LOGO W GENERAC GOOD.jpg",
+   "size": 544066,
+   "modified": "2026-10-14T20:20:51Z",
+   "type": "image/jpeg",
+   "etag": "4b66acc187ded173eff5919e263cfc60",
+   "url": "Final-Uploads/Files/PEI%20LOGO%20W%20GENERAC%20GOOD.jpg"
+  },
   {
    "name": "LinkedIn cover — EN@1x.png",
    "path": "LinkedIn cover — EN@1x.png",
@@ -697,6 +724,15 @@
    "type": "video/mp4",
    "etag": "8772403dfbada593e0a82bec9ae80d16",
    "url": "Final-Uploads/Files/Short%20Vid%27s/Website%20Vid%2010.MP4"
+  },
+  {
+   "name": "Jacob Generac 2.jpeg",
+   "path": "Jacob Generac 2.jpeg",
+   "size": 451644,
+   "modified": "2026-09-18T16:45:13Z",
+   "type": "image/jpeg",
+   "etag": "a8734f31e67494056de89ebb62c3252e",
+   "url": "Final-Uploads/Files/Jacob%20Generac%202.jpeg"
   }
  ]
 }
