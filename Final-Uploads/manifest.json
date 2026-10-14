@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T22:01:10Z",
+ "updated": "2026-10-14T19:24:41Z",
  "items": [
   {
    "name": "LinkedIn cover — EN@1x.png",
@@ -20,22 +20,683 @@
    "url": "Final-Uploads/Files/LinkedIn%20cover%20%E2%80%94%20FR%401x.png"
   },
   {
-   "name": "pei-certifications.mp4",
-   "path": "pei-certifications.mp4",
-   "size": 0,
-   "modified": "2026-10-11T18:34:27Z",
-   "type": "video/mp4",
-   "etag": "af323abaedf776d6e14d1ef1266ab69d",
-   "url": "Final-Uploads/Files/pei-certifications.mp4"
-  },
-  {
    "name": "Poulin_logo_transition_no_period.mp4",
-   "path": "Poulin_logo_transition_no_period.mp4",
+   "path": "Short Vid's/Poulin_logo_transition_no_period.mp4",
    "size": 21984271,
    "modified": "2026-10-11T18:33:22Z",
    "type": "video/mp4",
    "etag": "514a36397051bdcd9b828cfc12f7f6ea",
-   "url": "Final-Uploads/Files/Poulin_logo_transition_no_period.mp4"
+   "url": "Final-Uploads/Files/Short%20Vid%27s/Poulin_logo_transition_no_period.mp4"
+  },
+  {
+   "name": "Generac Crew.jpg",
+   "path": "Generac Crew.jpg",
+   "size": 165666,
+   "modified": "2026-09-28T17:31:21Z",
+   "type": "image/jpeg",
+   "etag": "8fa9e07fafadcf98ed356065b8b85d22",
+   "url": "Final-Uploads/Files/Generac%20Crew.jpg"
+  },
+  {
+   "name": "website phot 6.jpg",
+   "path": "Photo's/website phot 6.jpg",
+   "size": 1962770,
+   "modified": "2026-09-27T21:40:44Z",
+   "type": "image/jpeg",
+   "etag": "8043d9c046d744e5c1ac788347ceea26",
+   "url": "Final-Uploads/Files/Photo%27s/website%20phot%206.jpg"
+  },
+  {
+   "name": "Website phot4.jpg",
+   "path": "Photo's/Website phot4.jpg",
+   "size": 1254046,
+   "modified": "2026-09-27T21:40:21Z",
+   "type": "image/jpeg",
+   "etag": "1ceed417dfbd2f9189a404922adb53fd",
+   "url": "Final-Uploads/Files/Photo%27s/Website%20phot4.jpg"
+  },
+  {
+   "name": "Website phot 3.jpg",
+   "path": "Photo's/Website phot 3.jpg",
+   "size": 1695733,
+   "modified": "2026-09-27T21:39:53Z",
+   "type": "image/jpeg",
+   "etag": "32030fc455117bd1866ca854fabf360a",
+   "url": "Final-Uploads/Files/Photo%27s/Website%20phot%203.jpg"
+  },
+  {
+   "name": "Website phot 2.jpg",
+   "path": "Photo's/Website phot 2.jpg",
+   "size": 1614746,
+   "modified": "2026-09-27T21:39:01Z",
+   "type": "image/jpeg",
+   "etag": "6a941060ee14d93eae09a62c03be937e",
+   "url": "Final-Uploads/Files/Photo%27s/Website%20phot%202.jpg"
+  },
+  {
+   "name": "Website photo 1.jpg",
+   "path": "Photo's/Website photo 1.jpg",
+   "size": 2295795,
+   "modified": "2026-09-27T21:37:32Z",
+   "type": "image/jpeg",
+   "etag": "33d072fec2328c884edda8ea1aa98f21",
+   "url": "Final-Uploads/Files/Photo%27s/Website%20photo%201.jpg"
+  },
+  {
+   "name": "Website Vid 4.mp4",
+   "path": "Short Vid's/Website Vid 4.mp4",
+   "size": 3326763,
+   "modified": "2026-09-27T21:34:57Z",
+   "type": "video/mp4",
+   "etag": "9b3a0aeca377f52bea0c591c95f53a49",
+   "url": "Final-Uploads/Files/Short%20Vid%27s/Website%20Vid%204.mp4"
+  },
+  {
+   "name": "Website Vid 6.mp4",
+   "path": "Short Vid's/Website Vid 6.mp4",
+   "size": 4821240,
+   "modified": "2026-09-27T21:28:27Z",
+   "type": "video/mp4",
+   "etag": "43bd48707b3fb09ec5e7124450a81527",
+   "url": "Final-Uploads/Files/Short%20Vid%27s/Website%20Vid%206.mp4"
+  },
+  {
+   "name": "Website Vid 2.mp4",
+   "path": "Short Vid's/Website Vid 2.mp4",
+   "size": 3706097,
+   "modified": "2026-09-27T21:26:25Z",
+   "type": "video/mp4",
+   "etag": "da07b86a761ad914b4e8c0c19d3a504e",
+   "url": "Final-Uploads/Files/Short%20Vid%27s/Website%20Vid%202.mp4"
+  },
+  {
+   "name": "Website Vid 1.mp4",
+   "path": "Short Vid's/Website Vid 1.mp4",
+   "size": 3124368,
+   "modified": "2026-09-27T21:24:32Z",
+   "type": "video/mp4",
+   "etag": "f2e2bf6ce7215e634d5039f86391001a",
+   "url": "Final-Uploads/Files/Short%20Vid%27s/Website%20Vid%201.mp4"
+  },
+  {
+   "name": "20250526-634A1791.jpg",
+   "path": "Photo's/20250526-634A1791.jpg",
+   "size": 3148722,
+   "modified": "2026-09-27T18:51:52Z",
+   "type": "image/jpeg",
+   "etag": "bf24564bd0de8e595c0e4eedb3eb517f",
+   "url": "Final-Uploads/Files/Photo%27s/20250526-634A1791.jpg"
+  },
+  {
+   "name": "20250526-634A1787.jpg",
+   "path": "Photo's/20250526-634A1787.jpg",
+   "size": 2176087,
+   "modified": "2026-09-27T18:51:52Z",
+   "type": "image/jpeg",
+   "etag": "8112f33150d72a3aaf96db90638a6d53",
+   "url": "Final-Uploads/Files/Photo%27s/20250526-634A1787.jpg"
+  },
+  {
+   "name": "DSC09968.jpg",
+   "path": "Photo's/DSC09968.jpg",
+   "size": 3134186,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "5b9e03d9f47077275067605746562b9c",
+   "url": "Final-Uploads/Files/Photo%27s/DSC09968.jpg"
+  },
+  {
+   "name": "DSC09943.jpg",
+   "path": "Photo's/DSC09943.jpg",
+   "size": 3419784,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "f611281aa8236b83de614c6279a38b4c",
+   "url": "Final-Uploads/Files/Photo%27s/DSC09943.jpg"
+  },
+  {
+   "name": "DSC00234.jpg",
+   "path": "Photo's/DSC00234.jpg",
+   "size": 3813332,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "f6f9d717c1a0f22a23921b873305bfeb",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00234.jpg"
+  },
+  {
+   "name": "DSC00197.jpg",
+   "path": "Photo's/DSC00197.jpg",
+   "size": 2960438,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "b3f6034e18cd3341c545864ac41aabee",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00197.jpg"
+  },
+  {
+   "name": "DSC00044.jpg",
+   "path": "Photo's/DSC00044.jpg",
+   "size": 3818956,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "644b759a726d0391a0dc202deec940cc",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00044.jpg"
+  },
+  {
+   "name": "DSC00039.jpg",
+   "path": "Photo's/DSC00039.jpg",
+   "size": 3169989,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "9ccb1c0f29570029acf1b31fab62be39",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00039.jpg"
+  },
+  {
+   "name": "DSC00038.jpg",
+   "path": "Photo's/DSC00038.jpg",
+   "size": 3518837,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "b37ce6a9f30285f0889609ae08ac913e",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00038.jpg"
+  },
+  {
+   "name": "DSC00004.jpg",
+   "path": "Photo's/DSC00004.jpg",
+   "size": 3211643,
+   "modified": "2026-09-27T18:46:53Z",
+   "type": "image/jpeg",
+   "etag": "9330ca93a9acb9738de85d8ec2fd183a",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00004.jpg"
+  },
+  {
+   "name": "DSC00333.jpg",
+   "path": "Photo's/DSC00333.jpg",
+   "size": 3143801,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "6da1d955a97742af0f24525f4450844b",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00333.jpg"
+  },
+  {
+   "name": "DSC00331.jpg",
+   "path": "Photo's/DSC00331.jpg",
+   "size": 3835892,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "55e57393e15f84e51ebb591a88e011cc",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00331.jpg"
+  },
+  {
+   "name": "DSC00278.jpg",
+   "path": "Photo's/DSC00278.jpg",
+   "size": 3689431,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "5f5c98d1b25c7e17aa924923ea43e28a",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00278.jpg"
+  },
+  {
+   "name": "DSC00271.jpg",
+   "path": "Photo's/DSC00271.jpg",
+   "size": 3733707,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "7f6dae16b242402f426ec3731e3fcf3c",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00271.jpg"
+  },
+  {
+   "name": "DSC00268.jpg",
+   "path": "Photo's/DSC00268.jpg",
+   "size": 3743453,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "eef5bd78279a17c4abc75955763cf70c",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00268.jpg"
+  },
+  {
+   "name": "DSC00237.jpg",
+   "path": "Photo's/DSC00237.jpg",
+   "size": 3436953,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "0613acca6e91d8f720c3eb848438e613",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00237.jpg"
+  },
+  {
+   "name": "DSC00230.jpg",
+   "path": "Photo's/DSC00230.jpg",
+   "size": 3447471,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "a2ca196ceeb649482b7a778d470410e2",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00230.jpg"
+  },
+  {
+   "name": "DSC00225.jpg",
+   "path": "Photo's/DSC00225.jpg",
+   "size": 3263404,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "d6bcb97186a284d1b442b70e13a33682",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00225.jpg"
+  },
+  {
+   "name": "DSC00213.jpg",
+   "path": "Photo's/DSC00213.jpg",
+   "size": 2987985,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "d034da9cd8a616d17c21454c20feb03f",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00213.jpg"
+  },
+  {
+   "name": "DSC00210.jpg",
+   "path": "Photo's/DSC00210.jpg",
+   "size": 3677581,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "2db7bf40231ea529808e2b233f313d52",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00210.jpg"
+  },
+  {
+   "name": "DSC00207.jpg",
+   "path": "Photo's/DSC00207.jpg",
+   "size": 3195336,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "4c07f0ad2b83f7487218e634445a850a",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00207.jpg"
+  },
+  {
+   "name": "DSC00165.jpg",
+   "path": "Photo's/DSC00165.jpg",
+   "size": 3216240,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "db2c5f092c1f252f6e6db12a1516b9f1",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00165.jpg"
+  },
+  {
+   "name": "DSC00164.jpg",
+   "path": "Photo's/DSC00164.jpg",
+   "size": 3062061,
+   "modified": "2026-09-27T18:46:52Z",
+   "type": "image/jpeg",
+   "etag": "f572a8ad2653ee747272773b64f461e9",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00164.jpg"
+  },
+  {
+   "name": "DSC00325.jpg",
+   "path": "Photo's/DSC00325.jpg",
+   "size": 3729016,
+   "modified": "2026-09-27T18:46:51Z",
+   "type": "image/jpeg",
+   "etag": "120bb2bd908594eb8ac2b2a4032d48e8",
+   "url": "Final-Uploads/Files/Photo%27s/DSC00325.jpg"
+  },
+  {
+   "name": "IMG_1212.JPG",
+   "path": "Photo's/IMG_1212.JPG",
+   "size": 2773744,
+   "modified": "2026-09-27T18:46:49Z",
+   "type": "image/jpeg",
+   "etag": "e46d60815cfed329726ba049499270d1",
+   "url": "Final-Uploads/Files/Photo%27s/IMG_1212.JPG"
+  },
+  {
+   "name": "IMG_1218.JPG",
+   "path": "Photo's/IMG_1218.JPG",
+   "size": 3557260,
+   "modified": "2026-09-27T18:46:48Z",
+   "type": "image/jpeg",
+   "etag": "09eaf7d7a64b4b56d5077eb2106690ab",
+   "url": "Final-Uploads/Files/Photo%27s/IMG_1218.JPG"
+  },
+  {
+   "name": "IMG_1217.JPG",
+   "path": "Photo's/IMG_1217.JPG",
+   "size": 2434784,
+   "modified": "2026-09-27T18:46:48Z",
+   "type": "image/jpeg",
+   "etag": "3ee0f8331e8621f616d627f4d1506170",
+   "url": "Final-Uploads/Files/Photo%27s/IMG_1217.JPG"
+  },
+  {
+   "name": "IMG_1216.JPG",
+   "path": "Photo's/IMG_1216.JPG",
+   "size": 3196020,
+   "modified": "2026-09-27T18:46:48Z",
+   "type": "image/jpeg",
+   "etag": "2d7a4bba9e1e3a137f0bbe350ad6d5f5",
+   "url": "Final-Uploads/Files/Photo%27s/IMG_1216.JPG"
+  },
+  {
+   "name": "IMG_1219.JPG",
+   "path": "Photo's/IMG_1219.JPG",
+   "size": 3948529,
+   "modified": "2026-09-27T18:46:47Z",
+   "type": "image/jpeg",
+   "etag": "e315da71e2911d76c4f164adb13dfa56",
+   "url": "Final-Uploads/Files/Photo%27s/IMG_1219.JPG"
+  },
+  {
+   "name": "634A0083.JPG",
+   "path": "Photo's/634A0083.JPG",
+   "size": 6003343,
+   "modified": "2026-09-27T18:46:45Z",
+   "type": "image/jpeg",
+   "etag": "db6f79e6eac322cccb7b1d39de31f3ce",
+   "url": "Final-Uploads/Files/Photo%27s/634A0083.JPG"
+  },
+  {
+   "name": "634A0082.JPG",
+   "path": "Photo's/634A0082.JPG",
+   "size": 6073072,
+   "modified": "2026-09-27T18:46:44Z",
+   "type": "image/jpeg",
+   "etag": "439dd7f297234feb2a25d5e969c7f47c",
+   "url": "Final-Uploads/Files/Photo%27s/634A0082.JPG"
+  },
+  {
+   "name": "634A0044.JPG",
+   "path": "Photo's/634A0044.JPG",
+   "size": 6570019,
+   "modified": "2026-09-27T18:46:44Z",
+   "type": "image/jpeg",
+   "etag": "2279ed97a351138b212135d1d7545914",
+   "url": "Final-Uploads/Files/Photo%27s/634A0044.JPG"
+  },
+  {
+   "name": "634A0041.JPG",
+   "path": "Photo's/634A0041.JPG",
+   "size": 6141938,
+   "modified": "2026-09-27T18:46:44Z",
+   "type": "image/jpeg",
+   "etag": "b9042d5b1ddc21c6cdea28301a1c4ef4",
+   "url": "Final-Uploads/Files/Photo%27s/634A0041.JPG"
+  },
+  {
+   "name": "20250812-634A2036.jpg",
+   "path": "Photo's/20250812-634A2036.jpg",
+   "size": 3220363,
+   "modified": "2026-09-27T18:46:44Z",
+   "type": "image/jpeg",
+   "etag": "7eb669b2d63aa6b89ad826364c9c396c",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2036.jpg"
+  },
+  {
+   "name": "634A0081.JPG",
+   "path": "Photo's/634A0081.JPG",
+   "size": 6091306,
+   "modified": "2026-09-27T18:46:43Z",
+   "type": "image/jpeg",
+   "etag": "50741060b3fd5d125daa6ec34202d0dd",
+   "url": "Final-Uploads/Files/Photo%27s/634A0081.JPG"
+  },
+  {
+   "name": "634A0079.JPG",
+   "path": "Photo's/634A0079.JPG",
+   "size": 5950587,
+   "modified": "2026-09-27T18:46:43Z",
+   "type": "image/jpeg",
+   "etag": "26390337bb1ed03b0ef43dcc2cca919a",
+   "url": "Final-Uploads/Files/Photo%27s/634A0079.JPG"
+  },
+  {
+   "name": "634A0078.JPG",
+   "path": "Photo's/634A0078.JPG",
+   "size": 6117599,
+   "modified": "2026-09-27T18:46:43Z",
+   "type": "image/jpeg",
+   "etag": "d6bd9b0e9d2f821e07fd7fb4c12db896",
+   "url": "Final-Uploads/Files/Photo%27s/634A0078.JPG"
+  },
+  {
+   "name": "634A0047.JPG",
+   "path": "Photo's/634A0047.JPG",
+   "size": 5345325,
+   "modified": "2026-09-27T18:46:43Z",
+   "type": "image/jpeg",
+   "etag": "2d5fa86dccb3af3ef421e81cfbc9bf4d",
+   "url": "Final-Uploads/Files/Photo%27s/634A0047.JPG"
+  },
+  {
+   "name": "website 7.jpg",
+   "path": "Photo's/website 7.jpg",
+   "size": 2091845,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "55299c60b073d8e1621f3b1731f24b95",
+   "url": "Final-Uploads/Files/Photo%27s/website%207.jpg"
+  },
+  {
+   "name": "untitled-0228.jpg",
+   "path": "Photo's/untitled-0228.jpg",
+   "size": 756407,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "25f702d029f20b5ab7b28bf259082f03",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0228.jpg"
+  },
+  {
+   "name": "untitled-0199.jpg",
+   "path": "Photo's/untitled-0199.jpg",
+   "size": 819904,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "948b19c8ab0313a25e8f84ef27b09fc6",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0199.jpg"
+  },
+  {
+   "name": "untitled-0197.jpg",
+   "path": "Photo's/untitled-0197.jpg",
+   "size": 794933,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "fff02d613631d4c8d7bdf3ea05d4cae0",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0197.jpg"
+  },
+  {
+   "name": "untitled-0192.jpg",
+   "path": "Photo's/untitled-0192.jpg",
+   "size": 2647699,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "574548828efc561cfb265f3dd7e8b116",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0192.jpg"
+  },
+  {
+   "name": "untitled-0189.jpg",
+   "path": "Photo's/untitled-0189.jpg",
+   "size": 2649961,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "52b6bb5372b5fb33cc3139e80d8fedcc",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0189.jpg"
+  },
+  {
+   "name": "untitled-0184.jpg",
+   "path": "Photo's/untitled-0184.jpg",
+   "size": 666938,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "338c4b60154147e02cc92d95a075ceb4",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0184.jpg"
+  },
+  {
+   "name": "untitled-0168.jpg",
+   "path": "Photo's/untitled-0168.jpg",
+   "size": 660896,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "6fb37cb607b6f67002e156066d24a259",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0168.jpg"
+  },
+  {
+   "name": "untitled-0165.jpg",
+   "path": "Photo's/untitled-0165.jpg",
+   "size": 1716336,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "7bd1bf87af4053f4b6cf76740fc8f13b",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0165.jpg"
+  },
+  {
+   "name": "untitled-0163.jpg",
+   "path": "Photo's/untitled-0163.jpg",
+   "size": 2175666,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "6f72681595ec9118f3b5e8b880ddb7ff",
+   "url": "Final-Uploads/Files/Photo%27s/untitled-0163.jpg"
+  },
+  {
+   "name": "634A0045.JPG",
+   "path": "Photo's/634A0045.JPG",
+   "size": 6751412,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "cafd53ba685efeccef9059d319bc0418",
+   "url": "Final-Uploads/Files/Photo%27s/634A0045.JPG"
+  },
+  {
+   "name": "20250812-634A2048.jpg",
+   "path": "Photo's/20250812-634A2048.jpg",
+   "size": 2364992,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "0303449da482a50263b8335a74f556a2",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2048.jpg"
+  },
+  {
+   "name": "20250812-634A2047.jpg",
+   "path": "Photo's/20250812-634A2047.jpg",
+   "size": 2774102,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "28fa33af6276849bcd1a244f801356bc",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2047.jpg"
+  },
+  {
+   "name": "20250812-634A2043.jpg",
+   "path": "Photo's/20250812-634A2043.jpg",
+   "size": 2383433,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "6468f000124b18c0c712b50f174916f5",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2043.jpg"
+  },
+  {
+   "name": "20250812-634A2039.jpg",
+   "path": "Photo's/20250812-634A2039.jpg",
+   "size": 2991922,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "584ab5c1853828a087274b6e19a4d469",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2039.jpg"
+  },
+  {
+   "name": "20250812-634A2037.jpg",
+   "path": "Photo's/20250812-634A2037.jpg",
+   "size": 3129069,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "ae32c9bb5511b89bb64352b4b7c1fc42",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2037.jpg"
+  },
+  {
+   "name": "20250812-634A2034.jpg",
+   "path": "Photo's/20250812-634A2034.jpg",
+   "size": 2783526,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "dbef4dddd977b2441e7186a308ca4db7",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2034.jpg"
+  },
+  {
+   "name": "20250812-634A2030.jpg",
+   "path": "Photo's/20250812-634A2030.jpg",
+   "size": 1745933,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "f7eb7f7b5d3462a606db8b0c70f1ca57",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2030.jpg"
+  },
+  {
+   "name": "20250812-634A2029.jpg",
+   "path": "Photo's/20250812-634A2029.jpg",
+   "size": 1726225,
+   "modified": "2026-09-27T18:46:42Z",
+   "type": "image/jpeg",
+   "etag": "edd6ed3f2c8fc5f7a5b609bd6e051278",
+   "url": "Final-Uploads/Files/Photo%27s/20250812-634A2029.jpg"
+  },
+  {
+   "name": "DSC09939.jpg",
+   "path": "Photo's/DSC09939.jpg",
+   "size": 3519880,
+   "modified": "2026-09-27T18:28:36Z",
+   "type": "image/jpeg",
+   "etag": "9cc8208632e2f1b41b484a621cd3c692",
+   "url": "Final-Uploads/Files/Photo%27s/DSC09939.jpg"
+  },
+  {
+   "name": "DSC09933.jpg",
+   "path": "Photo's/DSC09933.jpg",
+   "size": 3289485,
+   "modified": "2026-09-27T18:28:35Z",
+   "type": "image/jpeg",
+   "etag": "5308a1bea47d425fbd23673571cdc366",
+   "url": "Final-Uploads/Files/Photo%27s/DSC09933.jpg"
+  },
+  {
+   "name": "Website Vid 8.MP4",
+   "path": "Short Vid's/Website Vid 8.MP4",
+   "size": 141206292,
+   "modified": "2026-09-27T18:27:26Z",
+   "type": "video/mp4",
+   "etag": "da37142aa1dfbfefff1e5fdb1f73ca8c",
+   "url": "https://portail.poulinelectrique.com/s/8soeXdayLqzH7bc/download?path=/Short%20Vid%27s&files=Website%20Vid%208.MP4",
+   "external": true
+  },
+  {
+   "name": "Website Vid 9.MP4",
+   "path": "Short Vid's/Website Vid 9.MP4",
+   "size": 134628888,
+   "modified": "2026-09-27T18:27:25Z",
+   "type": "video/mp4",
+   "etag": "93acd7a766388d2ced6643a23129aff0",
+   "url": "https://portail.poulinelectrique.com/s/8soeXdayLqzH7bc/download?path=/Short%20Vid%27s&files=Website%20Vid%209.MP4",
+   "external": true
+  },
+  {
+   "name": "Website Vid 7.MP4",
+   "path": "Short Vid's/Website Vid 7.MP4",
+   "size": 190261760,
+   "modified": "2026-09-27T18:26:20Z",
+   "type": "video/mp4",
+   "etag": "0117c3e10de824da5a26f16951684316",
+   "url": "https://portail.poulinelectrique.com/s/8soeXdayLqzH7bc/download?path=/Short%20Vid%27s&files=Website%20Vid%207.MP4",
+   "external": true
+  },
+  {
+   "name": "Website Vid 5.MP4",
+   "path": "Short Vid's/Website Vid 5.MP4",
+   "size": 279215608,
+   "modified": "2026-09-27T18:24:20Z",
+   "type": "video/mp4",
+   "etag": "224b9e5fbf3310ac56e791a15d0e71a2",
+   "url": "https://portail.poulinelectrique.com/s/8soeXdayLqzH7bc/download?path=/Short%20Vid%27s&files=Website%20Vid%205.MP4",
+   "external": true
+  },
+  {
+   "name": "Website Vid 10.MP4",
+   "path": "Short Vid's/Website Vid 10.MP4",
+   "size": 0,
+   "modified": "2026-09-25T21:51:07Z",
+   "type": "video/mp4",
+   "etag": "8772403dfbada593e0a82bec9ae80d16",
+   "url": "Final-Uploads/Files/Short%20Vid%27s/Website%20Vid%2010.MP4"
   }
  ]
 }
