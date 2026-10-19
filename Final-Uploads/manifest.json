@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-16T01:24:35Z",
+ "updated": "2026-10-19T19:45:11Z",
  "items": [
+  {
+   "name": "pei-certifications.mp4",
+   "path": "pei-certifications.mp4",
+   "size": 1504237,
+   "modified": "2026-10-19T18:04:38Z",
+   "type": "video/mp4",
+   "etag": "7ef9b4a199afef1719c9d287b77fc99f",
+   "url": "Final-Uploads/Files/pei-certifications.mp4"
+  },
+  {
+   "name": "Poulin_Electrique_Generac_Ad_Edited V3.mp4",
+   "path": "Poulin_Electrique_Generac_Ad_Edited V3.mp4",
+   "size": 43247253,
+   "modified": "2026-10-19T16:07:35Z",
+   "type": "video/mp4",
+   "etag": "59a4ca93f1400acabc391d1c41e65aba",
+   "url": "Final-Uploads/Files/Poulin_Electrique_Generac_Ad_Edited%20V3.mp4"
+  },
+  {
+   "name": "Poulin_Electrique_Generac_Ad_Edited V2.mp4",
+   "path": "Poulin_Electrique_Generac_Ad_Edited V2.mp4",
+   "size": 54985293,
+   "modified": "2026-10-19T15:47:55Z",
+   "type": "video/mp4",
+   "etag": "e9cea396e324b388cd34d636b917e9ee",
+   "url": "Final-Uploads/Files/Poulin_Electrique_Generac_Ad_Edited%20V2.mp4"
+  },
+  {
+   "name": "Poulin_Electrique_Generac_Ad_Edited.mp4",
+   "path": "Poulin_Electrique_Generac_Ad_Edited.mp4",
+   "size": 16293826,
+   "modified": "2026-10-19T14:55:17Z",
+   "type": "video/mp4",
+   "etag": "a861d480bfd4872ca33c5170c4af2d7e",
+   "url": "Final-Uploads/Files/Poulin_Electrique_Generac_Ad_Edited.mp4"
+  },
   {
    "name": "Pei logo.jpg",
    "path": "Pei logo.jpg",
