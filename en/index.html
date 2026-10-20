@@ -119,6 +119,7 @@ footer{margin-top:28px;padding-top:20px;border-top:1px solid var(--pei-border);f
 .more .specs{border:0;padding:0 0 18px;margin:0}
 @media (max-width:640px){.tabs{display:flex;width:100%}.tabs button{flex:1;padding:10px 8px}}
 @media (max-width:640px){.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.actions .btn{padding:12px 14px;font-size:15px}}
+.final-group+.final-group{margin-top:34px}.final-group>h3{color:var(--pei-cream);font-weight:500;font-size:18px;letter-spacing:.1em;margin:0 0 14px}.final-group>h3 small{color:var(--pei-text);font-size:13px;letter-spacing:.06em;margin-left:8px}
 </style>
 <link rel="stylesheet" href="../assets/comments.css">
 <script>
@@ -771,7 +772,7 @@ if (new URLSearchParams(location.search).get('lang') === 'fr') location.replace(
 
   <section class="io" id="final">
     <header class="io-head"><h2>Final uploads</h2><p>Files dropped in the <a href="final-drafts/">upload centre</a> show up here automatically (updated every 15 minutes). Anyone can download or delete them.</p></header>
-    <div class="grid" id="final-list" aria-live="polite"><p class="note">Loading…</p></div>
+    <div id="final-list" aria-live="polite"><p class="note">Loading…</p></div>
   </section>
 
   <section class="io" id="facebook">
@@ -924,7 +925,21 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
       const items = (m.items || []).filter(it => !gone(it, deleted));
       if (!items.length) return say(T.none);
       box.textContent = '';
-      items.forEach(it => {
+      const kinds = [['image/', 'Photos'], ['video/', 'Videos (MP4)'], ['', 'Other files']];
+      const kindOf = it => { const t = it.type || ''; const i = kinds.findIndex(k => k[0] && t.startsWith(k[0])); return i < 0 ? kinds.length - 1 : i; };
+      const groups = kinds.map(k => null);
+      const gridFor = it => {
+        const k = kindOf(it);
+        if (!groups[k]) {
+          const sec = el('section', 'final-group'), h = el('h3', '', kinds[k][1]);
+          h.append(el('small', '', String(items.filter(x => kindOf(x) === k).length)));
+          const g = el('div', 'grid');
+          sec.append(h, g);
+          groups[k] = {sec, g};
+        }
+        return groups[k].g;
+      };
+      items.slice().sort((a, b) => kindOf(a) - kindOf(b)).forEach(it => {
         const url = it.external ? it.url : base + it.url, type = it.type || '';
         const ext = (it.name.includes('.') ? it.name.split('.').pop() : 'file').toUpperCase();
         const card = el('article', 'card'), frame = el('div', 'frame');
@@ -953,15 +968,18 @@ document.querySelectorAll('.lang-toggle a').forEach(a => a.addEventListener('cli
               del.firstChild.textContent = T.del + ' ';
               return alert(T.delfail);
             }
+            const sec = card.closest('.final-group');
             card.remove();
+            if (sec && !sec.querySelector('.card')) sec.remove();
             if (!box.querySelector('.card')) say(T.none);
           });
         });
         dl.append(a, del);
         card.append(frame, meta, info, dl);
-        box.append(card);
+        gridFor(it).append(card);
         if (C) C.attach(card, 'Final-Uploads/' + it.path);
       });
+      groups.forEach(g => { if (g) box.append(g.sec); });
     })
     .catch(() => say(T.err));
 })();
