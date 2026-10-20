@@ -1,167 +1,158 @@
 {
- "updated": "2026-10-19T23:07:34Z",
+ "updated": "2026-10-20T01:44:47Z",
  "items": [
   {
-   "name": "Monitoring_station_in_PEI_office_4K_20261019200105.jpg",
-   "path": "Monitoring_station_in_PEI_office_4K_20261019200105.jpg",
-   "size": 8108589,
-   "modified": "2026-10-19T23:01:22Z",
-   "type": "image/jpeg",
-   "etag": "235d66288dd4b986a9f63ad6d65f50ae",
-   "url": "Final-Uploads/Files/Monitoring_station_in_PEI_office_4K_20261019200105.jpg"
-  },
-  {
-   "name": "Technician_and_homeowner_shaking…_4K_20261019194712.mp4",
-   "path": "Technician_and_homeowner_shaking…_4K_20261019194712.mp4",
-   "size": 15326931,
-   "modified": "2026-10-19T22:47:21Z",
+   "name": "Generac Promo Video Oct 19th 2026.mp4",
+   "path": "Generac Promo Video Oct 19th 2026.mp4",
+   "size": 30941352,
+   "modified": "2026-10-20T01:23:47Z",
    "type": "video/mp4",
-   "etag": "18258667e3a3ae31959473ee7cc6a5fb",
-   "url": "Final-Uploads/Files/Technician_and_homeowner_shaking%E2%80%A6_4K_20261019194712.mp4"
+   "etag": "d097f74668801252dde3c4a0dae7f163",
+   "url": "Final-Uploads/Files/Generac%20Promo%20Video%20Oct%2019th%202026.mp4"
   },
   {
-   "name": "Man_typing_on_laptop_1080p_20261019194311.mp4",
-   "path": "Man_typing_on_laptop_1080p_20261019194311.mp4",
+   "name": "Vid_Jake_and_Client_V1.mp4",
+   "path": "Vid_Jake_and_Client_V1.mp4",
+   "size": 4290368,
+   "modified": "2026-10-20T00:56:41Z",
+   "type": "video/mp4",
+   "etag": "7bcd8f6d01aa6c4fb60315ad923a96bc",
+   "url": "Final-Uploads/Files/Vid_Jake_and_Client_V1.mp4"
+  },
+  {
+   "name": "Vid_PEI_Promo_details_Vid.mp4",
+   "path": "Vid_PEI_Promo_details_Vid.mp4",
+   "size": 8485139,
+   "modified": "2026-10-19T23:50:16Z",
+   "type": "video/mp4",
+   "etag": "4642045a42d6c132c14445940d5ee2ef",
+   "url": "Final-Uploads/Files/Vid_PEI_Promo_details_Vid.mp4"
+  },
+  {
+   "name": "Vid_Generator_Vid_Jake_V2.mp4",
+   "path": "Vid_Generator_Vid_Jake_V2.mp4",
+   "size": 3608903,
+   "modified": "2026-10-19T23:45:17Z",
+   "type": "video/mp4",
+   "etag": "ddf00cc40df894241f7eae259f9c5a9e",
+   "url": "Final-Uploads/Files/Vid_Generator_Vid_Jake_V2.mp4"
+  },
+  {
+   "name": "Vid_Thunderstorm_strikes_near_power_V1.mp4",
+   "path": "Vid_Thunderstorm_strikes_near_power_V1.mp4",
+   "size": 9316971,
+   "modified": "2026-10-19T23:43:39Z",
+   "type": "video/mp4",
+   "etag": "42efc5fa6a77c98364df48ef39129935",
+   "url": "Final-Uploads/Files/Vid_Thunderstorm_strikes_near_power_V1.mp4"
+  },
+  {
+   "name": "Vid_Generator_Vid_Jake_V1.mp4",
+   "path": "Vid_Generator_Vid_Jake_V1.mp4",
+   "size": 7464796,
+   "modified": "2026-10-19T23:42:26Z",
+   "type": "video/mp4",
+   "etag": "9fe415ec7a5443a11b4d29a6120b4713",
+   "url": "Final-Uploads/Files/Vid_Generator_Vid_Jake_V1.mp4"
+  },
+  {
+   "name": "Vid_Monitors_displaying_Poulin_Office.mp4",
+   "path": "Vid_Monitors_displaying_Poulin_Office.mp4",
+   "size": 3947135,
+   "modified": "2026-10-19T23:18:23Z",
+   "type": "video/mp4",
+   "etag": "366d8dcdc74c9389f24a2143228ada1e",
+   "url": "Final-Uploads/Files/Vid_Monitors_displaying_Poulin_Office.mp4"
+  },
+  {
+   "name": "Vid_Alex_typing_on_laptop.mp4",
+   "path": "Vid_Alex_typing_on_laptop.mp4",
    "size": 10030162,
    "modified": "2026-10-19T22:43:31Z",
    "type": "video/mp4",
    "etag": "9be87ad2f171b5a9a34d701b6f79f016",
-   "url": "Final-Uploads/Files/Man_typing_on_laptop_1080p_20261019194311.mp4"
+   "url": "Final-Uploads/Files/Vid_Alex_typing_on_laptop.mp4"
   },
   {
-   "name": "T_and_homeowner_shaking…_4K_V1.mp4",
-   "path": "T_and_homeowner_shaking…_4K_V1.mp4",
-   "size": 15326931,
-   "modified": "2026-10-19T22:10:37Z",
-   "type": "video/mp4",
-   "etag": "e885035a9d574487795c5f0c7a65be99",
-   "url": "Final-Uploads/Files/T_and_homeowner_shaking%E2%80%A6_4K_V1.mp4"
-  },
-  {
-   "name": "Jake with client V1.jpg",
-   "path": "Jake with client V1.jpg",
+   "name": "Picture_Jake with client V1.jpg",
+   "path": "Picture_Jake with client V1.jpg",
    "size": 7540933,
    "modified": "2026-10-19T22:05:48Z",
    "type": "image/jpeg",
    "etag": "46b7b650f982961be0738a61a88616d9",
-   "url": "Final-Uploads/Files/Jake%20with%20client%20V1.jpg"
+   "url": "Final-Uploads/Files/Picture_Jake%20with%20client%20V1.jpg"
   },
   {
-   "name": "Alex_monitoring_Fleet_v1.jpg",
-   "path": "Alex_monitoring_Fleet_v1.jpg",
+   "name": "Picture_Alex_monitoring_Fleet_v1.jpg",
+   "path": "Picture_Alex_monitoring_Fleet_v1.jpg",
    "size": 8876066,
    "modified": "2026-10-19T21:22:01Z",
    "type": "image/jpeg",
    "etag": "5b786396f5af561cb1de8efbbb0ff491",
-   "url": "Final-Uploads/Files/Alex_monitoring_Fleet_v1.jpg"
+   "url": "Final-Uploads/Files/Picture_Alex_monitoring_Fleet_v1.jpg"
   },
   {
-   "name": "Thunderstorm_strikes_near_power_V3.mp4",
-   "path": "Thunderstorm_strikes_near_power_V3.mp4",
+   "name": "Vid_Thunderstorm_strikes_near_power_V3.mp4",
+   "path": "Vid_Thunderstorm_strikes_near_power_V3.mp4",
    "size": 29702829,
    "modified": "2026-10-19T21:11:42Z",
    "type": "video/mp4",
    "etag": "9b3bc1544465741b04076f6abadf4dcb",
-   "url": "Final-Uploads/Files/Thunderstorm_strikes_near_power_V3.mp4"
+   "url": "Final-Uploads/Files/Vid_Thunderstorm_strikes_near_power_V3.mp4"
   },
   {
-   "name": "Thunderstorm_strikes_v2.mp4",
-   "path": "Thunderstorm_strikes_v2.mp4",
+   "name": "Vid_Thunderstorm_strikes_near_power_v2.mp4",
+   "path": "Vid_Thunderstorm_strikes_near_power_v2.mp4",
    "size": 6649954,
    "modified": "2026-10-19T20:43:52Z",
    "type": "video/mp4",
    "etag": "d7b90e6f1b18e96732689e3277b022ae",
-   "url": "Final-Uploads/Files/Thunderstorm_strikes_v2.mp4"
+   "url": "Final-Uploads/Files/Vid_Thunderstorm_strikes_near_power_v2.mp4"
   },
   {
-   "name": "Generac Tech and client video V1.mp4",
-   "path": "Generac Tech and client video V1.mp4",
-   "size": 1725172,
-   "modified": "2026-10-19T20:32:56Z",
-   "type": "video/mp4",
-   "etag": "7fd39330bb176228a24c1bc04e4ca18c",
-   "url": "Final-Uploads/Files/Generac%20Tech%20and%20client%20video%20V1.mp4"
-  },
-  {
-   "name": "Generac Electritian video V1.mp4",
-   "path": "Generac Electritian video V1.mp4",
-   "size": 2481644,
-   "modified": "2026-10-19T20:21:13Z",
-   "type": "video/mp4",
-   "etag": "3bd9ff23ba29ae890975052d7477d97e",
-   "url": "Final-Uploads/Files/Generac%20Electritian%20video%20V1.mp4"
-  },
-  {
-   "name": "pei-certifications.mp4",
-   "path": "pei-certifications.mp4",
+   "name": "Vid_pei-certifications.mp4",
+   "path": "Vid_pei-certifications.mp4",
    "size": 1504237,
    "modified": "2026-10-19T18:04:38Z",
    "type": "video/mp4",
    "etag": "7ef9b4a199afef1719c9d287b77fc99f",
-   "url": "Final-Uploads/Files/pei-certifications.mp4"
+   "url": "Final-Uploads/Files/Vid_pei-certifications.mp4"
   },
   {
-   "name": "Poulin_Electrique_Generac_Ad_Edited V3.mp4",
-   "path": "Poulin_Electrique_Generac_Ad_Edited V3.mp4",
-   "size": 43247253,
-   "modified": "2026-10-19T16:07:35Z",
-   "type": "video/mp4",
-   "etag": "59a4ca93f1400acabc391d1c41e65aba",
-   "url": "Final-Uploads/Files/Poulin_Electrique_Generac_Ad_Edited%20V3.mp4"
-  },
-  {
-   "name": "Poulin_Electrique_Generac_Ad_Edited V2.mp4",
-   "path": "Poulin_Electrique_Generac_Ad_Edited V2.mp4",
-   "size": 54985293,
-   "modified": "2026-10-19T15:47:55Z",
-   "type": "video/mp4",
-   "etag": "e9cea396e324b388cd34d636b917e9ee",
-   "url": "Final-Uploads/Files/Poulin_Electrique_Generac_Ad_Edited%20V2.mp4"
-  },
-  {
-   "name": "Poulin_Electrique_Generac_Ad_Edited.mp4",
-   "path": "Poulin_Electrique_Generac_Ad_Edited.mp4",
-   "size": 16293826,
-   "modified": "2026-10-19T14:55:17Z",
-   "type": "video/mp4",
-   "etag": "a861d480bfd4872ca33c5170c4af2d7e",
-   "url": "Final-Uploads/Files/Poulin_Electrique_Generac_Ad_Edited.mp4"
-  },
-  {
-   "name": "Pei logo.jpg",
-   "path": "Pei logo.jpg",
+   "name": "Logo_Pei logo.jpg",
+   "path": "Logo_Pei logo.jpg",
    "size": 2123416,
    "modified": "2026-10-16T00:07:32Z",
    "type": "image/jpeg",
    "etag": "cd769ad84ef3594ee3007d1960665cd8",
-   "url": "Final-Uploads/Files/Pei%20logo.jpg"
+   "url": "Final-Uploads/Files/Logo_Pei%20logo.jpg"
   },
   {
-   "name": "Jacob Generac.jpg",
-   "path": "Jacob Generac.jpg",
+   "name": "Picture_Jacob Generac.jpg",
+   "path": "Picture_Jacob Generac.jpg",
    "size": 259887,
    "modified": "2026-10-14T22:24:15Z",
    "type": "image/jpeg",
    "etag": "f4df8ed596a8f93f029684b320131244",
-   "url": "Final-Uploads/Files/Jacob%20Generac.jpg"
+   "url": "Final-Uploads/Files/Picture_Jacob%20Generac.jpg"
   },
   {
-   "name": "Generac Logo GOOD.png",
-   "path": "Generac Logo GOOD.png",
+   "name": "Logo_Generac Logo GOOD.png",
+   "path": "Logo_Generac Logo GOOD.png",
    "size": 191533,
    "modified": "2026-10-14T20:22:25Z",
    "type": "image/png",
    "etag": "9c7c05cbfe094c00828f82ddb0cd9896",
-   "url": "Final-Uploads/Files/Generac%20Logo%20GOOD.png"
+   "url": "Final-Uploads/Files/Logo_Generac%20Logo%20GOOD.png"
   },
   {
-   "name": "PEI LOGO W GENERAC GOOD.jpg",
-   "path": "PEI LOGO W GENERAC GOOD.jpg",
+   "name": "Logo_PEI LOGO W GENERAC GOOD.jpg",
+   "path": "Logo_PEI LOGO W GENERAC GOOD.jpg",
    "size": 544066,
    "modified": "2026-10-14T20:20:51Z",
    "type": "image/jpeg",
    "etag": "4b66acc187ded173eff5919e263cfc60",
-   "url": "Final-Uploads/Files/PEI%20LOGO%20W%20GENERAC%20GOOD.jpg"
+   "url": "Final-Uploads/Files/Logo_PEI%20LOGO%20W%20GENERAC%20GOOD.jpg"
   },
   {
    "name": "LinkedIn cover — EN@1x.png",
@@ -191,13 +182,22 @@
    "url": "Final-Uploads/Files/Short%20Vid%27s/Poulin_logo_transition_no_period.mp4"
   },
   {
-   "name": "Generac Crew.jpg",
-   "path": "Generac Crew.jpg",
+   "name": "Vid_Facebook Ad - Maintenance and Service GENERAC August 26th.mp4",
+   "path": "Vid_Facebook Ad - Maintenance and Service GENERAC August 26th.mp4",
+   "size": 10719840,
+   "modified": "2026-10-05T17:49:52Z",
+   "type": "video/mp4",
+   "etag": "21dfe58891f94a32196663e9d8d0df64",
+   "url": "Final-Uploads/Files/Vid_Facebook%20Ad%20-%20Maintenance%20and%20Service%20GENERAC%20August%2026th.mp4"
+  },
+  {
+   "name": "Picture_Generac Crew.jpg",
+   "path": "Picture_Generac Crew.jpg",
    "size": 165666,
    "modified": "2026-09-28T17:31:21Z",
    "type": "image/jpeg",
    "etag": "8fa9e07fafadcf98ed356065b8b85d22",
-   "url": "Final-Uploads/Files/Generac%20Crew.jpg"
+   "url": "Final-Uploads/Files/Picture_Generac%20Crew.jpg"
   },
   {
    "name": "website phot 6.jpg",
@@ -861,13 +861,13 @@
    "url": "Final-Uploads/Files/Short%20Vid%27s/Website%20Vid%2010.MP4"
   },
   {
-   "name": "Jacob Generac 2.jpeg",
-   "path": "Jacob Generac 2.jpeg",
+   "name": "Picture_Jacob Generac 2.jpeg",
+   "path": "Picture_Jacob Generac 2.jpeg",
    "size": 451644,
    "modified": "2026-09-18T16:45:13Z",
    "type": "image/jpeg",
    "etag": "a8734f31e67494056de89ebb62c3252e",
-   "url": "Final-Uploads/Files/Jacob%20Generac%202.jpeg"
+   "url": "Final-Uploads/Files/Picture_Jacob%20Generac%202.jpeg"
   }
  ]
 }
