@@ -1,6 +1,51 @@
 {
- "updated": "2026-10-20T01:44:47Z",
+ "updated": "2026-10-22T00:09:22Z",
  "items": [
+  {
+   "name": "Generac Promo Video Oct 21th 2026_15s_V1.mp4",
+   "path": "Generac Promo Video Oct 21th 2026_15s_V1.mp4",
+   "size": 10929430,
+   "modified": "2026-10-22T00:03:07Z",
+   "type": "video/mp4",
+   "etag": "a6a6dd9241665289c81f80ccb1a759e3",
+   "url": "Final-Uploads/Files/Generac%20Promo%20Video%20Oct%2021th%202026_15s_V1.mp4"
+  },
+  {
+   "name": "Vid_PEI_Van_Oct 212026_V1.mp4",
+   "path": "Vid_PEI_Van_Oct 212026_V1.mp4",
+   "size": 36375392,
+   "modified": "2026-10-21T23:58:16Z",
+   "type": "video/mp4",
+   "etag": "a1db15b6a10f226f84edc44a9f7916a8",
+   "url": "Final-Uploads/Files/Vid_PEI_Van_Oct%20212026_V1.mp4"
+  },
+  {
+   "name": "Picture_PEI_Van_Oct 212026_V1.png",
+   "path": "Picture_PEI_Van_Oct 212026_V1.png",
+   "size": 6854070,
+   "modified": "2026-10-21T23:43:29Z",
+   "type": "image/png",
+   "etag": "42c0f674dda237bbac6a75da4779572d",
+   "url": "Final-Uploads/Files/Picture_PEI_Van_Oct%20212026_V1.png"
+  },
+  {
+   "name": "Generac_Promo_Video_Oct_21th_2026_15s_V2.mp4",
+   "path": "Generac_Promo_Video_Oct_21th_2026_15s_V2.mp4",
+   "size": 13325780,
+   "modified": "2026-10-21T22:39:57Z",
+   "type": "video/mp4",
+   "etag": "a00cc18bf8d20f9bd01eae1eb575e19f",
+   "url": "Final-Uploads/Files/Generac_Promo_Video_Oct_21th_2026_15s_V2.mp4"
+  },
+  {
+   "name": "Vid_Thunderstorm_strikes_near_house_V1.mp4",
+   "path": "Vid_Thunderstorm_strikes_near_house_V1.mp4",
+   "size": 2508971,
+   "modified": "2026-10-21T22:23:29Z",
+   "type": "video/mp4",
+   "etag": "19e6712f589c08d592cd0717433608f4",
+   "url": "Final-Uploads/Files/Vid_Thunderstorm_strikes_near_house_V1.mp4"
+  },
   {
    "name": "Generac Promo Video Oct 19th 2026.mp4",
    "path": "Generac Promo Video Oct 19th 2026.mp4",
