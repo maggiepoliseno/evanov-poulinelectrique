@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-23T15:24:06Z",
+ "updated": "2026-10-23T19:30:16Z",
  "items": [
+  {
+   "name": "HTMLCSS Reference Template.html",
+   "path": "HTMLCSS Reference Template.html",
+   "size": 10518,
+   "modified": "2026-10-23T19:06:49Z",
+   "type": "text/html",
+   "etag": "37f2a8307d2d3f92e6a44e87f6f1d182",
+   "url": "Final-Uploads/Files/HTMLCSS%20Reference%20Template.html"
+  },
+  {
+   "name": "Json File.json",
+   "path": "Json File.json",
+   "size": 3214,
+   "modified": "2026-10-23T19:04:29Z",
+   "type": "application/json",
+   "etag": "2c6abcc3621a11f25d13f55067321f8b",
+   "url": "Final-Uploads/Files/Json%20File.json"
+  },
+  {
+   "name": "Final Adjustments - DIgital Display Ads - Oct 23rd 2026.jpg",
+   "path": "Final Adjustments - DIgital Display Ads - Oct 23rd 2026.jpg",
+   "size": 2673829,
+   "modified": "2026-10-23T19:02:50Z",
+   "type": "image/jpeg",
+   "etag": "7e3d9318139f66f2cb6ee49545ecf2f4",
+   "url": "Final-Uploads/Files/Final%20Adjustments%20-%20DIgital%20Display%20Ads%20-%20Oct%2023rd%202026.jpg"
+  },
   {
    "name": "Screenshot 2026-10-23 120707.png",
    "path": "Screenshot 2026-10-23 120707.png",
@@ -9,6 +36,15 @@
    "type": "image/png",
    "etag": "b9cdbf8a022f79a368b09bed03227848",
    "url": "Final-Uploads/Files/Screenshot%202026-10-23%20120707.png"
+  },
+  {
+   "name": "Screenshot 2026-10-23 120707 - Copy.png",
+   "path": "Screenshot 2026-10-23 120707 - Copy.png",
+   "size": 349224,
+   "modified": "2026-10-23T15:07:07Z",
+   "type": "image/png",
+   "etag": "1a290e739706b316d2b03d902c7979a4",
+   "url": "Final-Uploads/Files/Screenshot%202026-10-23%20120707%20-%20Copy.png"
   },
   {
    "name": "Screenshot 2026-10-23 120702.png",
@@ -27,6 +63,15 @@
    "type": "image/png",
    "etag": "56dacfc9da4388a94210bb8fee3a5fc3",
    "url": "Final-Uploads/Files/Screenshot%202026-10-23%20120657.png"
+  },
+  {
+   "name": "Screenshot 2026-10-23 120657 - Copy.png",
+   "path": "Screenshot 2026-10-23 120657 - Copy.png",
+   "size": 330135,
+   "modified": "2026-10-23T15:06:57Z",
+   "type": "image/png",
+   "etag": "79b3f35f5d378214ea63b2bbbba083c9",
+   "url": "Final-Uploads/Files/Screenshot%202026-10-23%20120657%20-%20Copy.png"
   },
   {
    "name": "Screenshot 2026-10-23 120651.png",

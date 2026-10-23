@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Poulin Électrique Inc. - Final 5-Scene Ad Spec (300x600)</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-dark: #140604;
+    --poulin-red: #E02B20;
+    --generac-orange: #EC6608;
+    --pure-white: #FFFFFF;
+    --muted-gray: #9E9E9E;
+  }
+
+  body {
+    background: #1c1c1e;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 32px;
+  }
+
+  h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #ccc;
+    margin: 0 0 20px 0;
+  }
+
+  .storyboard-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .scene-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scene-label {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ddd;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  /* 300x600 Ad Container */
+  .ad-frame {
+    width: 300px;
+    height: 600px;
+    background-color: var(--bg-dark);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.6);
+    text-decoration: none;
+    display: block;
+    border: 1px solid #2c2c2e;
+  }
+
+  /* Locked Header Zone (0px - 145px) */
+  .ad-header {
+    position: relative;
+    z-index: 3;
+    height: 145px;
+    padding: 12px 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .iso-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1.5px solid #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(255,255,255,0.06);
+  }
+
+  .brand-logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #e5e5e5;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+
+  .brand-logo span {
+    color: var(--poulin-red);
+    display: block;
+    font-size: 13px;
+  }
+
+  .generac-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 9px;
+    color: #ccc;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    padding-top: 6px;
+    text-align: left;
+  }
+
+  .generac-wordmark {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border-bottom: 3px solid var(--generac-orange);
+    padding-bottom: 1px;
+  }
+
+  /* Locked Copy Zone (145px - 365px) */
+  .ad-copy {
+    position: relative;
+    z-index: 3;
+    padding: 6px 22px 0 22px;
+    height: 220px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* Tier 1: Red Hook */
+  .hook-red {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.12;
+    color: var(--poulin-red);
+    text-transform: uppercase;
+    margin: 0 0 4px 0;
+  }
+
+  /* Tier 2: Bold White Payoff */
+  .payoff-white {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.15;
+    color: var(--pure-white);
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+  }
+
+  /* Tier 3: Orange Bar + Muted Gray Translation */
+  .translation-gray {
+    border-left: 3px solid var(--generac-orange);
+    padding-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.22;
+    color: var(--muted-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+  }
+
+  /* Subtle Bilingual CTA Button (Orange Accent) */
+  .cta-btn {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 13px;
+    border: 1.5px solid var(--generac-orange);
+    border-radius: 6px;
+    background: rgba(236, 102, 8, 0.12);
+    font-family: 'Inter', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    transition: background 0.2s ease;
+  }
+
+  .cta-fr { color: var(--pure-white); }
+  .cta-div { color: rgba(255,255,255,0.4); }
+  .cta-en { color: var(--generac-orange); }
+
+  .ad-frame:hover .cta-btn {
+    background: rgba(236, 102, 8, 0.28);
+  }
+
+  /* Locked Photo Zone (Bottom 235px) */
+  .ad-photo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ad-photo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background: linear-gradient(to bottom, var(--bg-dark) 12%, rgba(20,6,4,0) 100%);
+    z-index: 2;
+  }
+
+  /* Replace gradients below with url('your-image.jpg') */
+  .bg-1 { background-image: linear-gradient(135deg, #2b2523, #4a3f3a); }
+  .bg-2 { background-image: linear-gradient(135deg, #1f2937, #374151); }
+  .bg-3 { background-image: linear-gradient(135deg, #524106, #856a0a); }
+  .bg-4 { background-image: linear-gradient(135deg, #27272a, #3f3f46); }
+  .bg-5 { background-image: linear-gradient(135deg, #451a1c, #1f2937); }
+</style>
+</head>
+<body>
+
+<h2>Sequence Concept — 300×600px (Red Hook + White Payoff + Orange/Gray Accents)</h2>
+
+<div class="storyboard-row">
+
+  <!-- SCENE 1 (EN TOP) -->
+  <div class="scene-wrapper">
+    <div class="scene-label">Scène 1</div>
+    <a href="https://poulinelectrique.com" target="_blank" class="ad-frame">
+      <div class="ad-header">
+        <div class="iso-badge">ISO</div>
+        <div class="brand-logo">POULIN<span>ÉLECTRIQUE INC</span></div>
+        <div class="generac-badge">
+          <span class="generac-wordmark">GENERAC</span>
+          <span>Concessionnaire<br>Autorisé</span>
+        </div>
+      </div>
+      <div class="ad-copy">
+        <p class="hook-red">POWER OUTAGE?</p>
+        <p class="payoff-white">NEVER LOSE COMFORT.</p>
+        <div class="translation-gray">
+          PANNE DE COURANT ?<br>RESTEZ AU CHAUD.
+        </div>
+        <div class="cta-btn">
+          <span class="cta-fr">En savoir plus</span>
+          <span class="cta-div">|</span>
+          <span class="cta-en">Learn More &rsaquo;</span>
+        </div>
+      </div>
+      <div class="ad-photo bg-1"></div>
+    </a>
+  </div>
+
+  <!-- SCENE 2 (FR TOP) -->
+  <div class="scene-wrapper">
+    <div class="scene-label">Scène 2</div>
+    <a href="https://poulinelectrique.com" target="_blank" class="ad-frame">
+      <div class="ad-header">
+        <div class="iso-badge">ISO</div>
+        <div class="brand-logo">POULIN<span>ÉLECTRIQUE INC</span></div>
+        <div class="generac-badge">
+          <span class="generac-wordmark">GENERAC</span>
+          <span>Concessionnaire<br>Autorisé</span>
+        </div>
+      </div>
+      <div class="ad-copy">
+        <p class="hook-red">ÉLECTRICIENS<br>DE CONFIANCE</p>
+        <p class="payoff-white">INSTALLATION DE<br>VOTRE GENERAC.</p>
+        <div class="translation-gray">
+          STAY POWERED.<br>TRUSTED INSTALLATION.
+        </div>
+        <div class="cta-btn">
+          <span class="cta-fr">En savoir plus</span>
+          <span class="cta-div">|</span>
+          <span class="cta-en">Learn More &rsaquo;</span>
+        </div>
+      </div>
+      <div class="ad-photo bg-2"></div>
+    </a>
+  </div>
+
+  <!-- SCENE 3 (EN TOP) -->
+  <div class="scene-wrapper">
+    <div class="scene-label">Scène 3</div>
+    <a href="https://poulinelectrique.com" target="_blank" class="ad-frame">
+      <div class="ad-header">
+        <div class="iso-badge">ISO</div>
+        <div class="brand-logo">POULIN<span>ÉLECTRIQUE INC</span></div>
+        <div class="generac-badge">
+          <span class="generac-wordmark">GENERAC</span>
+          <span>Concessionnaire<br>Autorisé</span>
+        </div>
+      </div>
+      <div class="ad-copy">
+        <p class="hook-red">FULL ELECTRICAL<br>SERVICE</p>
+        <p class="payoff-white">RESIDENTIAL &amp;<br>COMMERCIAL</p>
+        <div class="translation-gray">
+          SERVICE ÉLECTRIQUE<br>COMPLET.
+        </div>
+        <div class="cta-btn">
+          <span class="cta-fr">En savoir plus</span>
+          <span class="cta-div">|</span>
+          <span class="cta-en">Learn More &rsaquo;</span>
+        </div>
+      </div>
+      <div class="ad-photo bg-3"></div>
+    </a>
+  </div>
+
+  <!-- SCENE 4 (FR TOP) -->
+  <div class="scene-wrapper">
+    <div class="scene-label">Scène 4</div>
+    <a href="https://poulinelectrique.com" target="_blank" class="ad-frame">
+      <div class="ad-header">
+        <div class="iso-badge">ISO</div>
+        <div class="brand-logo">POULIN<span>ÉLECTRIQUE INC</span></div>
+        <div class="generac-badge">
+          <span class="generac-wordmark">GENERAC</span>
+          <span>Concessionnaire<br>Autorisé</span>
+        </div>
+      </div>
+      <div class="ad-copy">
+        <p class="hook-red">UNE SEULE ÉQUIPE</p>
+        <p class="payoff-white">VENTE, INSTALLATION<br>ET ENTRETIEN.</p>
+        <div class="translation-gray">
+          SALES, INSTALLATION<br>AND SERVICE.
+        </div>
+        <div class="cta-btn">
+          <span class="cta-fr">En savoir plus</span>
+          <span class="cta-div">|</span>
+          <span class="cta-en">Learn More &rsaquo;</span>
+        </div>
+      </div>
+      <div class="ad-photo bg-4"></div>
+    </a>
+  </div>
+
+  <!-- SCENE 5 (EN TOP) -->
+  <div class="scene-wrapper">
+    <div class="scene-label">Scène 5</div>
+    <a href="https://poulinelectrique.com" target="_blank" class="ad-frame">
+      <div class="ad-header">
+        <div class="iso-badge">ISO</div>
+        <div class="brand-logo">POULIN<span>ÉLECTRIQUE INC</span></div>
+        <div class="generac-badge">
+          <span class="generac-wordmark">GENERAC</span>
+          <span>Concessionnaire<br>Autorisé</span>
+        </div>
+      </div>
+      <div class="ad-copy">
+        <p class="hook-red">WORK DONE RIGHT.</p>
+        <p class="payoff-white">A 25+ YEAR FAMILY<br>LEGACY.</p>
+        <div class="translation-gray">
+          LE TRAVAIL BIEN FAIT.<br>GARANTI.
+        </div>
+        <div class="cta-btn">
+          <span class="cta-fr">En savoir plus</span>
+          <span class="cta-div">|</span>
+          <span class="cta-en">Learn More &rsaquo;</span>
+        </div>
+      </div>
+      <div class="ad-photo bg-5"></div>
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>

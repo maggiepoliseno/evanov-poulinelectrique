@@ -1,0 +1,103 @@
+{
+  "campaign": "Poulin Électrique Inc. - Generac 5-Scene Display Ad",
+  "dimensions": {
+    "width": 300,
+    "height": 600,
+    "unit": "px",
+    "format": "Half-Page Skyscraper"
+  },
+  "landingPageBehavior": "Full-frame clickable to website (supports both Service Requests & New Installations)",
+  "colorPalette": {
+    "backgroundDark": "#140604",
+    "poulinCrimsonRed": "#E02B20",
+    "pureWhite": "#FFFFFF",
+    "generacOrangeAccent": "#EC6608",
+    "mutedTranslationGray": "#9E9E9E",
+    "buttonBackground": "rgba(236, 102, 8, 0.12)"
+  },
+  "typography": {
+    "headlineFontFamily": "Oswald, 'DIN Condensed', 'Bebas Neue', sans-serif",
+    "uiFontFamily": "Inter, Montserrat, sans-serif",
+    "topHookRed": {
+      "fontSize": "22px",
+      "fontWeight": 700,
+      "lineHeight": 1.12,
+      "textTransform": "uppercase",
+      "color": "#E02B20"
+    },
+    "payoffWhite": {
+      "fontSize": "19px",
+      "fontWeight": 700,
+      "lineHeight": 1.15,
+      "textTransform": "uppercase",
+      "color": "#FFFFFF"
+    },
+    "secondaryTranslationGray": {
+      "fontSize": "14px",
+      "fontWeight": 500,
+      "lineHeight": 1.22,
+      "textTransform": "uppercase",
+      "color": "#9E9E9E",
+      "leftBorder": "3px solid #EC6608",
+      "paddingLeft": "10px"
+    },
+    "ctaButton": {
+      "fontSize": "11.5px",
+      "fontWeight": 600,
+      "border": "1.5px solid #EC6608",
+      "borderRadius": "6px",
+      "textFR": "En savoir plus",
+      "textFRColor": "#FFFFFF",
+      "divider": "|",
+      "textEN": "Learn More ›",
+      "textENColor": "#EC6608"
+    }
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "primaryLanguage": "EN",
+      "backgroundAsset": "scene1-generator-closeup.jpg",
+      "topHookRed": "POWER OUTAGE?",
+      "payoffWhite": "NEVER LOSE COMFORT.",
+      "translationGray": "PANNE DE COURANT ?\nRESTEZ AU CHAUD.",
+      "cta": "En savoir plus | Learn More ›"
+    },
+    {
+      "scene": 2,
+      "primaryLanguage": "FR",
+      "backgroundAsset": "scene2-team-generac-event.jpg",
+      "topHookRed": "ÉLECTRICIENS\nDE CONFIANCE",
+      "payoffWhite": "INSTALLATION DE\nVOTRE GENERAC.",
+      "translationGray": "STAY POWERED.\nTRUSTED INSTALLATION.",
+      "cta": "En savoir plus | Learn More ›"
+    },
+    {
+      "scene": 3,
+      "primaryLanguage": "EN",
+      "backgroundAsset": "scene3-electrician-panel.jpg",
+      "topHookRed": "FULL ELECTRICAL\nSERVICE",
+      "payoffWhite": "RESIDENTIAL &\nCOMMERCIAL",
+      "translationGray": "SERVICE ÉLECTRIQUE\nCOMPLET.",
+      "cta": "En savoir plus | Learn More ›"
+    },
+    {
+      "scene": 4,
+      "primaryLanguage": "FR",
+      "backgroundAsset": "scene4-generator-house-dusk.jpg",
+      "topHookRed": "UNE SEULE ÉQUIPE",
+      "payoffWhite": "VENTE, INSTALLATION\nET ENTRETIEN.",
+      "translationGray": "SALES, INSTALLATION\nAND SERVICE.",
+      "cta": "En savoir plus | Learn More ›"
+    },
+    {
+      "scene": 5,
+      "primaryLanguage": "EN",
+      "backgroundAsset": "scene5-poulin-van.jpg",
+      "topHookRed": "WORK DONE RIGHT.",
+      "payoffWhite": "A 25+ YEAR FAMILY\nLEGACY.",
+      "translationGray": "LE TRAVAIL BIEN FAIT.\nGARANTI.",
+      "cta": "En savoir plus | Learn More ›"
+    }
+  ]
+}
